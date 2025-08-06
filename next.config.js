@@ -10,14 +10,10 @@ const nextConfig = {
   assetPrefix: `/${repoName}/`,// 静态资源（js/css/image）路径前缀
   //distDir: 'out',  // 可选：指定自定义导出目录
   images: {
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
+    // ❌ 禁用所有优化
+    unoptimized: true,
+    // 如果你还想继续允许远程域名加载，则保留 remotePatterns
+    // remotePatterns: [ … ],
   },
 };
 
