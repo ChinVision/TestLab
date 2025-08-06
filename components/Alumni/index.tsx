@@ -5,7 +5,7 @@ import { Alumni } from "./AlumniData";
 
 
 export default function AlumniCollections() {
-
+  const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '/TestLab';
   return (
     <>
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
@@ -29,11 +29,12 @@ export default function AlumniCollections() {
               className="relative overflow-hidden rounded-lg bg-gray-100 shadow-lg flex items-center justify-center">
               {/* 不用 fill，改成固定尺寸内按比例显示 */}
               <Image
-                src={alum.src}
+                // src={alum.src}
+                src={`${prefix}${alum.src}`}
                 alt={alum.name}
                 width={160}
                 height={160}
-				unoptimized
+                unoptimized
                 className="max-h-full max-w-full object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </div>
