@@ -1,28 +1,23 @@
 /** @type {import('next').NextConfig} */
 
-// 用于为静态资源（如图像、样式表、JavaScript 文件等）设置 URL 前缀
-// 这在将应用部署到自定义域名或 CDN 上时特别有用，因为它允许您将静态资源存储在不同的位置
-let assetPrefix = `/${repo}/`
-
-// 用于为应用设置基础路径
-// 这在将应用部署到子目录下时特别有用，因为它允许您指定应用所在的目录
-let basePath = `/${repo}`
-
-const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-  assetPrefix = `/${repo}/`
-  basePath = `/${repo}`
-}
+const repo = 'TestLab'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}`
 
 const nextConfig = {
-  assetPrefix,
-  basePath,
   reactStrictMode: true,
+  output: 'export',  // 导出静态资源
+  trailingSlash: true,        // 生成的每个页面都会带上 /index.html，保证路由正常
+  // --- 发布路径 ---
+  assetPrefix: assetPrefix,
+  basePath: basePath,
+  //distDir: 'out',  // 可选：指定自定义导出目录
   images: {
+    // ❌ 禁用所有优化
     unoptimized: true,
+    // 如果你还想继续允许远程域名加载，则保留 remotePatterns
+    // remotePatterns: [ … ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
