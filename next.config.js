@@ -15,6 +15,8 @@ const nextConfig = {
   images: {
     // ❌ 禁用所有优化
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './custom-image-loader.js'
     // 如果你还想继续允许远程域名加载，则保留 remotePatterns
     // remotePatterns: [ … ],
   },
