@@ -28,7 +28,8 @@ const PostdoctoralScholars = () => {
                   className="relative mb-2 block overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
                 >
                   <Image
-                    src={person.src}
+                    // src={person.src}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}${person.src}`}
                     alt={person.name}
                     width={260}
                     height={260}

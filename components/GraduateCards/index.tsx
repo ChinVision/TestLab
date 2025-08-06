@@ -38,7 +38,8 @@ export default function GraduateCards() {
                   <div key={idx} className="group">
                     <div className="relative w-60 h-80 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
                       <Image
-                        src={grad.src}
+                        // src={grad.src}
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}${grad.src}`}
                         alt={grad.name}
                         fill
                         style={{ objectFit: 'cover' }}

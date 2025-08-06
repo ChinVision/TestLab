@@ -32,7 +32,8 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/ours/pi.jpg"
+                // src="/images/ours/pi.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}"/images/ours/pi.jpg"`}
                 alt="About"
                 className="dark:hidden"
                 fill
