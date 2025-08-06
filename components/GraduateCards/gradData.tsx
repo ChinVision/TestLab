@@ -1,0 +1,28 @@
+/*
+@author chen
+@data 2025--2025/8/5-19:13
+*/
+
+export const GradData=[
+    { src: "/images/people/gs/myq.jpg", name: "Yingqi Miao", cname:"缪颖琪", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/qty.jpg", name: "Tianyi Qi", cname: "齐天翊", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/tjw.jpg", name: "Jingwei Tian", cname: "田婧玮", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/wcy.jpg", name: "Chunyu Wang", cname: "王春玉", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/dcy.jpg", name: "Chengyang Du", cname: "杜程阳", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/wyj.jpg", name: "Yajie Wang", cname: "王亚杰", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/wxy.jpg", name: "Xiangyang Wang", cname: "王向阳", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/lmh.jpg", name: "Minghao Liu", cname: "刘铭昊", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/xsy.jpg", name: "Suyang Xuan", cname: "宣苏洋", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/cwr.jpg", name: "Weiren Chen", cname: "陈韦壬", isPhD: true, grade: 2025 },
+    { src: "/images/people/gs/gzy.jpg", name: "Zhengyu Guan", cname: "管振宇", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/zwy.jpg", name: "Weiyu Zhang", cname: "张未雨", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/zz.jpg", name: "Zheng Zhou", cname: "周正", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/lsb.jpg", name: "Shibai Li", cname: "李诗白", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/dy.jpg", name: "Yi Dou", cname: "豆艺", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/zzt.jpg", name: "ZiTing Zhu", cname: "朱子婷", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/gyq.jpg", name: "YuQing Gong", cname: "宫羽清", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/jly.jpg", name: "LuYang Jiao", cname: "焦陆洋", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/wyy.jpg", name: "YangYi Wu", cname: "吴洋怡", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/hp.jpg", name: "Ping Han", cname: "韩平", isPhD: false, grade: 2025 },
+    { src: "/images/people/gs/lj.jpg", name: "Jie Long", cname: "龙捷", isPhD: false, grade: 2025 },
+]
