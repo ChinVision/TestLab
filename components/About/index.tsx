@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import React from "react";
 
 import { FaGoogleScholar } from "react-icons/fa6";
@@ -33,7 +33,7 @@ const About = () => {
             >
               <Image
                 // src="/images/ours/pi.jpg"
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}"/images/ours/pi.jpg"`}
+                src="/images/ours/pi.jpg"
                 alt="About"
                 className="dark:hidden"
                 fill

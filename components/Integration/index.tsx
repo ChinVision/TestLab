@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import SectionHeader from "../Common/SectionHeader";
 
 const Integration = () => {

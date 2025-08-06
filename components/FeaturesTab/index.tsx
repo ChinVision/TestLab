@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import { useState } from "react";
 import FeaturesTabItem from "./FeaturesTabItem";
 import featuresTabData from "./featuresTabData";

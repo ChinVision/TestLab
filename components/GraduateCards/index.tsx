@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/Common/SectionHeader";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import { GradData } from './gradData'
 
 export default function GraduateCards() {
@@ -39,7 +39,7 @@ export default function GraduateCards() {
                     <div className="relative w-60 h-80 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
                       <Image
                         // src={grad.src}
-                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}${grad.src}`}
+                        src={grad.src}
                         alt={grad.name}
                         fill
                         style={{ objectFit: 'cover' }}

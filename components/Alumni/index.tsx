@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/Common/SectionHeader";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import { FiCalendar, FiAward, FiBriefcase } from "react-icons/fi";
 import { Alumni } from "./AlumniData";
 
@@ -29,7 +29,7 @@ export default function AlumniCollections() {
               {/* 不用 fill，改成固定尺寸内按比例显示 */}
               <Image
                 // src={alum.src}
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}${alum.src}`}
+                src={alum.src}
                 alt={alum.name}
                 width={160}
                 height={160}

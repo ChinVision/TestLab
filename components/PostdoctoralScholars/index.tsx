@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import SectionHeader from "../Common/SectionHeader";
 import { PsData } from './PsData'
 const PostdoctoralScholars = () => {
@@ -29,7 +29,7 @@ const PostdoctoralScholars = () => {
                 >
                   <Image
                     // src={person.src}
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}${person.src}`}
+                    src={person.src}
                     alt={person.name}
                     width={260}
                     height={260}

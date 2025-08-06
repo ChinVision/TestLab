@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import React from "react";
 
 const Contact = () => {
@@ -72,7 +72,7 @@ const Contact = () => {
             viewport={{ once: true }}
             className="w-full md:w-3/5 lg:w-2/3 rounded-lg overflow-hidden shadow-lg h-auto md:h-80 flex items-center justify-center bg-gray-200 dark:bg-gray-700"
           >
-            <img
+            <Image
               src={'/images/map.png'}
               alt="Lab Location Map"
               className="w-full h-full object-cover"

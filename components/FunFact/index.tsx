@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import { motion } from "framer-motion";
 
 const FunFact = () => {

@@ -1,5 +1,5 @@
 import { useTheme } from "next-themes";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 
 const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Blog } from "@/types/blog";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "@/components/CustomImage"
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 const BlogItem = ({ blog }: { blog: Blog }) => {
