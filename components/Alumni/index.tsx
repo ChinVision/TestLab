@@ -33,6 +33,7 @@ export default function AlumniCollections() {
                 alt={alum.name}
                 width={160}
                 height={160}
+				unoptimized
                 className="max-h-full max-w-full object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </div>
