@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/solid-nextjs-main.iml" filepath="$PROJECT_DIR$/.idea/solid-nextjs-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/huangLabClient.iml" filepath="$PROJECT_DIR$/.idea/huangLabClient.iml" />
     </modules>
   </component>
 </project>

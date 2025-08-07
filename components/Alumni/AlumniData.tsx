@@ -4,7 +4,7 @@
 */
 
 export const Alumni = [
-  { src: "/images/people/al/Ayisha.jpg", name: "Ayisha", cname: "布阿依沙",year: 2025, degree: "Ph.D", destination: "Startup" },
+  { src: "/images/people/al/ayisha.jpg", name: "Ayisha", cname: "布阿依沙",year: 2025, degree: "Ph.D", destination: "Startup" },
   { src: "/images/people/al/wj.jpg", name: "Jin Wu", cname: "吴瑾",year: 2025, degree: "Ph.D.", destination: "Academia" },
   { src: "/images/people/al/khl.jpg", name: "Helong Kang", cname: "康贺龙",year: 2025, degree: "Ph.D.", destination: "Qi Lu-Pharma" },
   { src: "/images/people/al/zhq.jpg", name: "Haoqi Zhang", cname: "张浩琪", year: 2025, degree: "Ph.D.", destination: "Qi Lu-Pharma" },

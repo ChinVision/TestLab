@@ -4,6 +4,7 @@
 */
 
 import Link from "next/link";
+import * as process from "node:process";
 
 export default function BreadHero({
   imgSrc,
@@ -11,14 +12,14 @@ export default function BreadHero({
   title
                                   }) {
 
+  const isProd = process.env.NODE_ENV === 'production';
+  const prefix = isProd ? process.env.NEXT_PUBLIC_BASE_PATH : '';
 
   return (
     <>
       <div
         className="bg-cover bg-center relative"
-        // style={{ backgroundImage: "url('/images/hero/00.jpg')" }}
-        style={{ backgroundImage: `url(${imgSrc})` }}
-
+        style={{ backgroundImage: `url(${prefix}${imgSrc})` }}
       >
         {/* Optional overlay for text readability */}
         <div className="absolute inset-0 bg-black/30"></div>

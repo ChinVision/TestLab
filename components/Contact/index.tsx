@@ -20,7 +20,8 @@ const Contact = () => {
     <section id="support" className="px-4 md:px-8 2xl:px-0">
       <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
         {/* 背景装饰 */}
-        <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:to-[#252A42]"></div>
+        <div
+          className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:to-[#252A42]"></div>
         <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
           <Image
             src="/images/shape/shape-dotted-light.svg"
@@ -44,14 +45,16 @@ const Contact = () => {
             <div>
               <h2 className="mb-4 text-4xl font-medium text-black dark:text-white">Find us</h2>
               <div className="mb-2">
-                <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-gray-300"><strong>Our Location</strong></h3>
+                <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-gray-300"><strong>Our Location</strong>
+                </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Institute for Molecular Biology, Room 325<br />
                   94 Weijin Road, Tianjin, China 300071
                 </p>
               </div>
               <div className="mb-2">
-                <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-gray-300"><strong>Email Address</strong></h3>
+                <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-gray-300"><strong>Email Address</strong>
+                </h3>
                 <a href="mailto:huangxinglu@nankai.edu.cn" className="text-blue-600 hover:underline">
                   huangxinglu@nankai.edu.cn
                 </a>
@@ -70,19 +73,23 @@ const Contact = () => {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.4 }}
             viewport={{ once: true }}
-            className="w-full md:w-3/5 lg:w-2/3 rounded-lg overflow-hidden shadow-lg h-auto md:h-80 flex items-center justify-center bg-gray-200 dark:bg-gray-700"
+            className="relative w-full md:w-3/5 lg:w-2/3 h-80 rounded-lg overflow-hidden shadow-lg bg-gray-200 dark:bg-gray-700"
           >
-            <Image
-              src={'/images/map.png'}
-              alt="Lab Location Map"
-              className="w-full h-full object-cover"
-              loading="lazy"
-            />
-          </motion.div>
-        </div>
+          <Image
+            src="/images/map.png"
+            alt="Lab Location Map"
+            fill
+            className="object-cover"
+            priority={false}
+          />
+
+        </motion.div>
+
       </div>
-    </section>
-  );
+    </div>
+</section>
+)
+  ;
 };
 
 export default Contact;
