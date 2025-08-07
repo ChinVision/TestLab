@@ -2,7 +2,9 @@
 import Image from "next/image";
 
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const rawBase = process.env.NEXT_PUBLIC_BASE_PATH || "";
+// 确保前置斜杠、且去掉多余的尾斜杠
+const basePath = rawBase ? `/${rawBase.replace(/^\/|\/$/g, "")}` : "";
 
 export function CusImage(props) {
   const { src, ...rest } = props;

@@ -12,14 +12,24 @@ export default function BreadHero({
   title
                                   }) {
 
-  const isProd = process.env.NODE_ENV === 'production';
-  const prefix = isProd ? process.env.NEXT_PUBLIC_BASE_PATH : '';
+  // 1. rawBase 可能是 ''（开发）或 'TestLab'（生产）
+  const rawBase = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  // 2. 去掉前后斜杠，再补一个前置斜杠 → '' or '/TestLab'
+  const prefix = rawBase ? `/${rawBase.replace(/^\/|\/$/g, "")}` : "";
+  // 3. 只有生产环境才用前缀
+  const isProd = process.env.NODE_ENV === "production";
+  const urlBase = isProd ? prefix : "";
+  // 4. 去掉 imgSrc 首尾斜杠，保证拼出来不会有双斜杠
+  const trimmedImg = imgSrc.replace(/^\/|\/$/g, "");
+  const style = {
+    backgroundImage: `url(${urlBase}/${trimmedImg})`,
+  };
 
   return (
     <>
       <div
         className="bg-cover bg-center relative"
-        style={{ backgroundImage: `url(${prefix}${imgSrc})` }}
+        style={style}
       >
         {/* Optional overlay for text readability */}
         <div className="absolute inset-0 bg-black/30"></div>
