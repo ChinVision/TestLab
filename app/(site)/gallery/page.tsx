@@ -4,10 +4,8 @@ import { Metadata } from "next";
 import BreadHero from "@/components/BreadHero";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-
-  // other metadata
-  description: "This is Blog page for Solid Pro"
+  title: "Lab Gallery",
+  description: " "
 };
 
 const BlogPage = async () => {
@@ -30,7 +28,6 @@ const BlogPage = async () => {
           </div>
         </div>
       </section>
-      {/* <!-- ===== Blog Grid End ===== --> */}
     </>
   );
 };
