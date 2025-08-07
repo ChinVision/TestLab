@@ -1,71 +1,83 @@
-// components/BlogItem.tsx
 "use client";
 
-import React, { useState, useCallback, useEffect, FC } from "react";
+import { useState, useEffect } from "react";
 import { Blog } from "@/types/blog";
 import { motion } from "framer-motion";
-import Image from "@/components/CustomImage";
-import { createPortal } from "react-dom";
+import Image from "@/components/CustomImage"
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
-interface BlogItemProps {
-  blog: Blog;
-}
-
-const BlogItem: FC<BlogItemProps> = React.memo(({ blog }) => {
+const BlogItem = ({ blog }: { blog: Blog }) => {
   const { mainImage, title, metadata } = blog;
-  const [zoomed, setZoomed] = useState<boolean>(false);
+  const [zoomed, setZoomed] = useState(false);
 
-  const openZoom = useCallback(() => setZoomed(true), []);
-  const closeZoom = useCallback(() => setZoomed(false), []);
-
-  // 只在 zoomed 打开时阻止页面滚动
   useEffect(() => {
-    const handler = (e: WheelEvent) => {
-      if (zoomed) e.preventDefault();
+    document.body.style.overflow = zoomed ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
     };
-    document.addEventListener("wheel", handler, { passive: false });
-    return () => document.removeEventListener("wheel", handler);
   }, [zoomed]);
 
   return (
     <>
-      {zoomed &&
-        createPortal(
+      {zoomed && (
+        <div
+          className="fixed inset-0 bg-black/70 flex items-center justify-center z-[900]"
+          onClick={() => setZoomed(false)}
+          onWheel={(e) => e.preventDefault()}
+        >
           <div
-            className="fixed inset-0 bg-black/70 flex items-center justify-center z-[900]"
-            onClick={closeZoom}
-            style={{ overscrollBehavior: "none", touchAction: "none" }}
+            className="relative w-11/12 max-w-3xl max-h-[90vh] overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
           >
-            <div
-              className="relative w-11/12 max-w-3xl max-h-[90vh] overflow-hidden"
-              onClick={(e) => e.stopPropagation()}
+            <TransformWrapper
+              initialScale={1}
+              minScale={0.5}
+              maxScale={3}
+              wheel={{ step: 0.2 }}
+              doubleClick={{ disabled: true }}
+              panning={{ disabled: false }}
             >
-              {/* 直接渲染原图 */}
-              <Image
-                src={mainImage}
-                alt={title}
-                width={1200}
-                height={800}
-                style={{ objectFit: "contain" }}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-          </div>,
-          document.body
-        )}
+              {({ resetTransform }) => (
+                <>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      resetTransform();
+                    }}
+                    className="absolute top-4 right-4 z-[950] bg-white/80 px-3 py-1 rounded shadow-lg backdrop-blur-sm"
+                  >
+                    Reset
+                  </button>
+
+                  <TransformComponent>
+                    <Image
+                      src={mainImage}
+                      alt={title}
+                      width={1200}
+                      height={800}
+                      style={{ objectFit: "contain" }}
+                      className="rounded-lg shadow-lg"
+                    />
+                  </TransformComponent>
+                </>
+              )}
+            </TransformWrapper>
+          </div>
+        </div>
+      )}
 
       <motion.div
-        className="will-change-transform will-change-opacity rounded-lg bg-white p-4 pb-9 shadow-lg dark:bg-slate-800"
         variants={{ hidden: { opacity: 0, y: -20 }, visible: { opacity: 1, y: 0 } }}
-        initial="visible"
+        initial="hidden"
         animate="visible"
         transition={{ duration: 0.8, delay: 0.3 }}
+        className="rounded-lg bg-white p-4 pb-9 shadow-lg dark:bg-slate-800"
       >
+        {/* 缩略图容器：添加固定比例以显示图片 */}
         <div
           className="relative w-full cursor-pointer rounded-md overflow-hidden aspect-video"
-          onClick={openZoom}
+          onClick={() => setZoomed(true)}
         >
-          {/* 缩略图：只用 fill + sizes */}
           <Image
             src={mainImage}
             alt={title}
@@ -86,6 +98,6 @@ const BlogItem: FC<BlogItemProps> = React.memo(({ blog }) => {
       </motion.div>
     </>
   );
-});
+};
 
 export default BlogItem;
