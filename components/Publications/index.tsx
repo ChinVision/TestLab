@@ -11,7 +11,6 @@ import {
   papers2020,
   papers2019,
 } from "./PubData";
-
 const allPapers = [
   { year: "2025", papers: papers2025 },
   { year: "2024", papers: papers2024 },
@@ -21,30 +20,50 @@ const allPapers = [
   { year: "2020", papers: papers2020 },
   { year: "2019~before", papers: papers2019 },
 ];
+// 在文件顶部（组件外或组件上方）加入类型定义
+type RawPaper = {
+  title?: string;
+  link?: string;
+  image?: string;
+  authors?: string;
+  journal?: string;
+  type?: string | string[] | null;
+  [key: string]: any;
+};
+
+type FlatPaper = Omit<RawPaper, "type"> & {
+  types: string[];
+  year: string;
+};
+
+
 
 export default function Integration() {
-  const [viewMode, setViewMode] = useState("year"); // "year" | "type"
-  const [selectedType, setSelectedType] = useState(null);
-  const [selectedYear, setSelectedYear] = useState(null);
+  // 明确类型注解
+  const [viewMode, setViewMode] = useState<"year" | "type">("year");
+  const [selectedType, setSelectedType] = useState<string | null>(null);
+  const [selectedYear, setSelectedYear] = useState<string | null>(null);
 
-  // 将所有文章打平并规范化 type 为数组
-  const flatPapers = useMemo(() => {
-    return allPapers.flatMap(({ year, papers }) =>
-      papers.map((p) => ({
-        ...p,
-        year,
-        types: p.type
-          ? Array.isArray(p.type)
-            ? p.type.map((t) => String(t).trim())
-            : [String(p.type).trim()]
-          : [],
-      }))
-    );
-  }, []);
+  // 在组件内部，替换原来的 useMemo 实现为带类型的实现
+  const flatPapers = useMemo<FlatPaper[]>(
+    () =>
+      allPapers.flatMap(({ year, papers }) =>
+        papers.map((p: RawPaper) => ({
+          ...p,
+          year,
+          types: p.type
+            ? Array.isArray(p.type)
+              ? p.type.map((t) => String(t).trim())
+              : [String(p.type).trim()]
+            : [],
+        }))
+      ),
+    [allPapers]
+  );
 
-  // 所有去重的类型（按出现顺序）
-  const types = useMemo(() => {
-    const set = new Set();
+// 所有去重的类型（按出现顺序）
+  const types = useMemo<string[]>(() => {
+    const set = new Set<string>();
     flatPapers.forEach((p) => p.types.forEach((t) => set.add(t)));
     return Array.from(set);
   }, [flatPapers]);
@@ -53,31 +72,38 @@ export default function Integration() {
   const years = useMemo(() => allPapers.map((g) => g.year), []);
 
   // 按年份分组（保留输入顺序并标准化 types）
-  const papersByYear = useMemo(() => {
+  // 注意这里 papers 的类型也用 FlatPaper[]
+  const papersByYear = useMemo<
+    { year: string; papers: FlatPaper[] }[]
+  >(() => {
     return allPapers.map(({ year, papers }) => ({
       year,
-      papers: papers.map((p) => ({
-        ...p,
+      papers: (papers as RawPaper[]).map((p) => ({
+        ...(p as any),
         year,
         types: p.type
           ? Array.isArray(p.type)
             ? p.type.map((t) => String(t).trim())
             : [String(p.type).trim()]
           : [],
-      })),
+      })) as FlatPaper[],
     }));
-  }, []);
+  }, [allPapers]);
 
-  // 按类型分组
-  const papersByType = useMemo(() => {
-    const map = {};
+// 按类型分组
+  const papersByType = useMemo<Record<string, FlatPaper[]>>(() => {
+    const map: Record<string, FlatPaper[]> = {};
+    // 先初始化已知类型的 key
     types.forEach((t) => (map[t] = []));
     flatPapers.forEach((p) => {
-      if (p.types.length === 0) {
+      if (!p.types || p.types.length === 0) {
         map["Uncategorized"] = map["Uncategorized"] || [];
         map["Uncategorized"].push(p);
       } else {
-        p.types.forEach((t) => map[t].push(p));
+        p.types.forEach((t) => {
+          map[t] = map[t] || [];
+          map[t].push(p);
+        });
       }
     });
     return map; // { typeName: [papers...] }
