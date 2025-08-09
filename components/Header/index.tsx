@@ -44,7 +44,7 @@ const Header = () => {
               height={30}
               className="inline-block"
             />
-            <span className={'text-black'}>NanKai-Huang-Lab</span>
+            <span className={'text-black'}>Nankai_HuangLab</span>
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
