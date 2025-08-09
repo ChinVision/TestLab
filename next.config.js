@@ -7,8 +7,10 @@ const nextConfig = {
   images: { unoptimized: true },
   ...(isProd && {
     output: 'export',
-    assetPrefix: `/${repo}/`,   // → '/TestLab/'
-    basePath: `/${repo}`,        // → '/TestLab'
+    // assetPrefix: `/${repo}/`,   // → '/TestLab/'
+    // basePath: `/${repo}`,        // → '/TestLab'
+    assetPrefix:"",
+    basePath:""
   }),
 };
 
