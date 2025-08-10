@@ -1,18 +1,9 @@
 import SectionHeader from "@/components/Common/SectionHeader";
-import Image from "@/components/CustomImage"
-import { GradData } from './gradData'
+import Image from "@/components/CustomImage";
+import { FiCalendar, FiAward } from "react-icons/fi";
+import { GradData } from "./gradData";
 
-export default function GraduateCards() {
-  // 按 grade 分组
-  const grouped = GradData.reduce((acc, grad) => {
-    acc[grad.grade] = acc[grad.grade] || [];
-    acc[grad.grade].push(grad);
-    return acc;
-  }, {});
-
-  const sortedGrades = Object.keys(grouped)
-    .map(year => parseInt(year, 10))
-    .sort((a, b) => a - b);
+export default function AlumniCollections() {
   return (
     <>
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
@@ -20,49 +11,72 @@ export default function GraduateCards() {
           <SectionHeader
             headerInfo={{
               title: `Graduate Students`,
-              subtitle: ` `, description: ` `,
+              subtitle: ` `,
+              description: ` `,
             }}
           />
         </div>
       </div>
 
       <div className="bg-white py-6 sm:py-8 lg:py-12">
-        <div className="mx-auto max-w-screen-2xl px-4 md:px-8 space-y-12">
-          {sortedGrades.map(year => (
-            <section key={year} className="space-y-4">
-              {/*<h2 className="text-2xl font-semibold text-gray-800 text-center">*/}
-              {/*  Class of {year}*/}
-              {/*</h2>*/}
-              <div className="flex flex-wrap justify-center gap-x-6 gap-y-8">
-                {grouped[year].map((grad, idx) => (
-                  <div key={idx} className="group">
-                    <div className="relative w-60 h-80 overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-                      <Image
-                        // src={grad.src}
-                        src={grad.src}
-                        alt={grad.name}
-                        fill
-                        style={{ objectFit: 'cover' }}
-                        className="transition-transform duration-200 group-hover:scale-110"
-                      />
-                      {grad.isPhD && (
-                        <span
-                          className="absolute top-2 right-2 bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                          Ph.D.
-                        </span>
-                      )}
+        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+          <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
+            {GradData.map((grad, idx) => (
+              <div
+                key={idx}
+                className="group flex flex-row items-center bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                {/* 左侧图片（固定宽高） */}
+                <div className="relative w-60 h-90 overflow-hidden bg-gray-100 flex-shrink-0">
+                  <Image
+                    src={grad.src}
+                    alt={grad.name}
+                    fill
+                    style={{ objectFit: "cover" }}
+                    className="transition-transform duration-200 group-hover:scale-110"
+                  />
+                </div>
+
+                {/* 右侧文字信息 */}
+                <div className="flex flex-col p-4 flex-1 h-90 overflow-hidden">
+                  <h3 className="text-lg font-bold text-gray-800">
+                    {grad.name}
+                  </h3>
+                  <h2 className="text-md font-bold text-gray-800 mb-4">
+                    {grad.cname}
+                  </h2>
+
+                  {/* 研究方向 */}
+                  <div className="mb-3">
+                    <div className="flex items-center gap-2 text-gray-700 font-semibold">
+                      <FiCalendar className="text-blue-500" />
+                      Research
                     </div>
-                    <div className="mt-2 text-center">
-                      <span className="text-lg font-bold text-gray-800 lg:text-xl">{grad.name}</span>
-                    </div>
-                    <div className="mt-2 text-center">
-                      <span className="text-lg font-bold text-gray-800 lg:text-xl">{grad.cname}</span>
-                    </div>
+                    <p className="text-sm text-gray-600 mt-1 whitespace-pre-line">
+                      {grad.research}
+                    </p>
                   </div>
-                ))}
+                  {/* 学习经历（数组，空时显示默认提示） */}
+                  <div className="mt-auto">
+                    <div className="flex items-center gap-2 text-gray-700 font-semibold">
+                      <FiAward className="text-yellow-500" />
+                      Experiences
+                    </div>
+                    {grad.experiences && grad.experiences.length > 0 ? (
+                      <ul className="list-disc list-inside text-sm text-gray-600 mt-1 space-y-1">
+                        {grad.experiences.map((exp, i) => (
+                          <li key={i}>{exp}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-sm text-gray-500 mt-1 italic">No experiences provided.</p>
+                    )}
+                  </div>
+
+                </div>
               </div>
-            </section>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>
