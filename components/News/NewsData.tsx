@@ -4,18 +4,18 @@
 */
 // 示例数据：你可以换成从 API / CMS 拉取的数据
 export const newsData = [
-  // {
-  //   id: "n1",
-  //   title: "團隊獲得腦部影像新算法 AUC 提升 5%",
-  //   category: "Brain",
-  //   date: "2025-07-10",
-  //   excerpt:
-  //     "我們提出了一種融合多模態 MRI 的自監督學習方法，在公開資料集上表現優於現有 SOTA，AUC 提升約 5%。",
-  //   image:
-  //     "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=800",
-  //   link: "#",
-  //   tags: ["AI", "MRI"],
-  // },
+  {
+    id: "n1",
+    title: "脑部影像分割新算法 AUC 提升 5%",
+    category: "Brain",
+    date: "2025-07-10",
+    excerpt:
+      "我们提出了一種融合多模態 MRI 的自監督學習方法，在公開資料集上表現優於現有 SOTA，AUC 提升約 5%。",
+    image:
+      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=800",
+    link: "#",
+    tags: ["AI", "MRI"],
+  },
   // {
   //   id: "n2",
   //   title: "血管分割工具公開，支持臨床評估流程",
