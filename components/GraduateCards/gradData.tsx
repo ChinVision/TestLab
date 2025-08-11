@@ -94,7 +94,18 @@ export const GradData=[
     { src: "/images/people/gs/gzy.jpg", name: "Zhengyu Guan", cname: "管振宇", isPhD: false, grade: 2025 },
     { src: "/images/people/gs/zwy.jpg", name: "Weiyu Zhang", cname: "张未雨", isPhD: false, grade: 2025 },
     { src: "/images/people/gs/zz.jpg", name: "Zheng Zhou", cname: "周正", isPhD: false, grade: 2025 },
-    { src: "/images/people/gs/lsb.jpg", name: "Shibai Li", cname: "李诗白", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/lsb.jpg",
+        name: "Shibai Li",
+        cname: "李诗白",
+        isPhD: false,
+        grade: 2025,
+        research: "Nanomedicine in tumor immunology",
+        experiences:[
+          "B.S., 2019-2023, Dalian University of Technology",
+          "M.S., 2023-current, Nankai University, Tianjin, China"
+        ]
+    },
     { src: "/images/people/gs/dy.jpg", name: "Yi Dou", cname: "豆艺", isPhD: false, grade: 2025 },
     { src: "/images/people/gs/zzt.jpg", name: "ZiTing Zhu", cname: "朱子婷", isPhD: false, grade: 2025 },
     {
@@ -141,7 +152,8 @@ export const GradData=[
         grade: 2025,
         research:"Tumor Bioinformatics",
         experiences:[
-            "B.S., 2021-2025, Beijing Forestry University, Beijing, China"
+            "B.S., 2021-2025, Beijing Forestry University, Beijing, China",
+            "M.S., 2025-current, Nankai University, Tianjin, China"
         ]
     },
 ]
