@@ -394,7 +394,8 @@ export default function Integration() {
                       <SectionHeader
                         headerInfo={{
                           title: typeName,
-                          subtitle: `${papers.length} 篇`,
+                          // subtitle: `${papers.length} 篇`,
+                          subtitle: ` `,
                           description: "",
                         }}
                       />

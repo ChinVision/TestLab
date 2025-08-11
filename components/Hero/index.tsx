@@ -1,7 +1,7 @@
 "use client";
 import Image from "@/components/CustomImage"
 import { useState } from "react";
-
+import Link from "next/link";
 const Hero = () => {
   const [email, setEmail] = useState("");
 
@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-15 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
@@ -28,11 +28,22 @@ const Hero = () => {
               <br />
               <br />
               <p className={'text-lg'}>
-                Our aim is to investigate the interaction between nanomaterials and biological barriers,
-                and to solve the problems in oncology and regenerative medicine.
-                The representative technologies in our lab include genetic engineered ferritin nanocages,
-                antibody-engineered cell membrane nanomedicines,
-                Artificial Intelligence (AI)-assisted nanotechnology.
+                Our research focuses on the rational design of nanomedicines to address critical challenges in oncology,
+                cardiovascular disorders, and neurological diseases.
+                Central to this effort is elucidating the mechanisms by which nanomedicines traverse complex biological barriers,
+                with particular emphasis on modulating vascular permeability.
+                To tackle these obstacles, we strategically integrate cutting-edge approaches into the design pipeline,
+                such as artificial intelligence (AI), bioinformatics, synthetic biology, immunology, and neuroscience,
+                enabling precision engineering of nanomedicines with enhanced therapeutic efficacy and translational potential.
+                Looking ahead, AI-driven nanotechnology constitutes a key strategic direction for the coming years.
+
+                Representative works have been published in {" "}
+                <Link href={'/publications'} className={'text-black underline'}>
+                  Nature Nanotechnology (2023 Jun; 18(6):657–666),
+                  Advanced Materials (2022 Jul; 34(27):e2201736; 2024 Mar; 36(10):e2210848),
+                  and ACS Nano (2025 Jan 28; 19(3):3424–3438), alongside ongoing projects.
+                </Link>
+
               </p>
             </div>
 

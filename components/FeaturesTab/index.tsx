@@ -46,7 +46,7 @@ const FeaturesTab = () => {
             animate="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top mb-15 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-21.5 xl:gap-12.5"
+            className="animate_top mb-15 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-15 xl:gap-12.5"
           >
             <div
               onClick={() => setCurrentTab("tabOne")}
@@ -63,7 +63,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Biological effects of nanomaterials
+                  Tumor Therapy
                 </button>
               </div>
             </div>
@@ -82,7 +82,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Tumor diagnosis and treatment
+                  Cardiovascular Diseases
                 </button>
               </div>
             </div>
@@ -101,7 +101,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Tissue engineering and regenerative medicine
+                  Brain Science
                 </button>
               </div>
             </div>
