@@ -22,7 +22,7 @@ export const papers2025 = [
     link: "https://doi.org/10.1002/smtd.202401969",
     journal: "Small Methods",
     image:"/images/publication/2025p2.jpg",
-    type:" Reviews"
+    type:" Review"
   },
   {
     authors: "Xia Zong, Xinran Xu, Dai‐Wen Pang, Xinglu Huang, An‐An Liu",
@@ -30,7 +30,7 @@ export const papers2025 = [
     link: "https://doi.org/10.1002/adhm.202401836",
     journal: "Advanced Healthcare Materials",
     image:"/images/publication/2025p3.jpg",
-    type:"Collaboration"
+    type:"Review"
   },
   {
     authors:
@@ -62,7 +62,7 @@ export const papers2024 = [
     link: "https://link.springer.com/chapter/10.1007/978-981-97-5536-3_6",
     journal: "Extracellular Vesicle: Biology and Translational Application",
     image:"/images/publication/2024p1.jpg",
-    type:"Other"
+    type:"Review"
   },
   {
     authors:
@@ -122,7 +122,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1002/adma.202210848",
     journal: "Advanced Materials",
     image:"/images/publication/2024p7.jpg",
-    type:"Other"
+    type:"Review"
   },
   {
     authors:
@@ -142,7 +142,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1002/jim4.15",
     journal: "Journal of Intelligent Medicine",
     image:"/images/publication/2024p9.jpg",
-    type:"Other"
+    type:"Review"
   },
   {
     authors:
@@ -185,7 +185,7 @@ export const papers2023 = [
     link: "https://doi.org/10.1002/adma.202210848",
     journal: "Advanced Materials",
     image:"/images/publication/2023p3.jpg",
-    type:"Other"
+    type:"Review"
   },
   {
     authors:
@@ -195,7 +195,7 @@ export const papers2023 = [
     link: "https://doi.org/10.1039/D3TB00192J",
     journal: "Journal of Materials Chemistry B",
     image:"/images/publication/2023p4.jpg",
-    type:"Other"
+    type:"Review"
   },
 ];
 export const papers2022 = [
@@ -237,7 +237,7 @@ export const papers2022 = [
     link: "https://doi.org/10.3390/bios12090703",
     journal: "Biosensors",
     image:"/images/publication/2022p4.jpg",
-    type:"Other"
+    type:"Review"
   },
   {
     authors:
