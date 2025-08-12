@@ -27,7 +27,7 @@ const Hero = () => {
               </h1>
               <br />
               <br />
-              <p className={'text-lg'}>
+              <p className={'text-lg text-black'}>
                 Our research focuses on the rational design of nanomedicines to address critical challenges in oncology,
                 cardiovascular disorders, and neurological diseases.
                 Central to this effort is elucidating the mechanisms by which nanomedicines traverse complex biological barriers,
@@ -37,12 +37,12 @@ const Hero = () => {
                 enabling precision engineering of nanomedicines with enhanced therapeutic efficacy and translational potential.
                 Looking ahead, AI-driven nanotechnology constitutes a key strategic direction for the coming years.
 
-                Representative works have been published in {" "}
-                <Link href={'/publications'} className={'text-black underline'}>
-                  Nature Nanotechnology (2023 Jun; 18(6):657–666),
-                  Advanced Materials (2022 Jul; 34(27):e2201736; 2024 Mar; 36(10):e2210848),
-                  and ACS Nano (2025 Jan 28; 19(3):3424–3438), alongside ongoing projects.
-                </Link>
+                {/*Representative works have been published in {" "}*/}
+                {/*<Link href={'/publications'} className={'text-black underline'}>*/}
+                {/*  Nature Nanotechnology (2023 Jun; 18(6):657–666),*/}
+                {/*  Advanced Materials (2022 Jul; 34(27):e2201736; 2024 Mar; 36(10):e2210848),*/}
+                {/*  and ACS Nano (2025 Jan 28; 19(3):3424–3438), alongside ongoing projects.*/}
+                {/*</Link>*/}
 
               </p>
             </div>

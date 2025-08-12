@@ -9,7 +9,7 @@ import {
   papers2022,
   papers2021,
   papers2020,
-  papers2019,
+  // papers2019,
 } from "./PubData";
 const allPapers = [
   { year: "2025", papers: papers2025 },
@@ -18,7 +18,7 @@ const allPapers = [
   { year: "2022", papers: papers2022 },
   { year: "2021", papers: papers2021 },
   { year: "2020", papers: papers2020 },
-  { year: "2019~before", papers: papers2019 },
+  // { year: "2019~before", papers: papers2019 },
 ];
 // 在文件顶部（组件外或组件上方）加入类型定义
 type RawPaper = {
@@ -166,6 +166,7 @@ export default function Integration() {
           {y}
         </button>
       ))}
+
     </div>
   );
 

@@ -22,7 +22,7 @@ export const papers2025 = [
     link: "https://doi.org/10.1002/smtd.202401969",
     journal: "Small Methods",
     image:"/images/publication/2025p2.jpg",
-    type:" Review"
+    type:" Tumor Therapy"
   },
   {
     authors: "Xia Zong, Xinran Xu, Dai‐Wen Pang, Xinglu Huang, An‐An Liu",
@@ -30,7 +30,7 @@ export const papers2025 = [
     link: "https://doi.org/10.1002/adhm.202401836",
     journal: "Advanced Healthcare Materials",
     image:"/images/publication/2025p3.jpg",
-    type:"Review"
+    type:"Tumor Therapy"
   },
   {
     authors:
@@ -52,6 +52,16 @@ export const papers2025 = [
     image:"/images/publication/2025p5.jpg",
     type:"Tumor Therapy"
   },
+  {
+    authors:
+      " ",
+    title:
+      "Unpublished",
+    link: "",
+    journal: "",
+    image:"",
+    type:"Brain Science"
+  },
 ];
 export const papers2024 = [
   {
@@ -62,7 +72,7 @@ export const papers2024 = [
     link: "https://link.springer.com/chapter/10.1007/978-981-97-5536-3_6",
     journal: "Extracellular Vesicle: Biology and Translational Application",
     image:"/images/publication/2024p1.jpg",
-    type:"Review"
+    type:"Cardiovascular Diseases"
   },
   {
     authors:
@@ -92,7 +102,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1186/s12951-024-02514-4",
     journal: "Journal of Nanobiotechnology",
     image:"/images/publication/2024p4.jpg",
-    type:"Other"
+    type:"Tumor Therapy"
   },
   {
     authors:
@@ -122,7 +132,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1002/adma.202210848",
     journal: "Advanced Materials",
     image:"/images/publication/2024p7.jpg",
-    type:"Review"
+    type:"Cardiovascular Diseases"
   },
   {
     authors:
@@ -132,7 +142,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1002/adfm.202304426",
     journal: "Advanced Functional Materials",
     image:"/images/publication/2024p8.jpg",
-    type:"Other"
+    type:"Cardiovascular Diseases"
   },
   {
     authors:
@@ -142,7 +152,7 @@ export const papers2024 = [
     link: "https://doi.org/10.1002/jim4.15",
     journal: "Journal of Intelligent Medicine",
     image:"/images/publication/2024p9.jpg",
-    type:"Review"
+    type:"Cardiovascular Diseases"
   },
   {
     authors:
@@ -185,7 +195,7 @@ export const papers2023 = [
     link: "https://doi.org/10.1002/adma.202210848",
     journal: "Advanced Materials",
     image:"/images/publication/2023p3.jpg",
-    type:"Review"
+    type:"Cardiovascular Diseases"
   },
   {
     authors:
@@ -195,7 +205,7 @@ export const papers2023 = [
     link: "https://doi.org/10.1039/D3TB00192J",
     journal: "Journal of Materials Chemistry B",
     image:"/images/publication/2023p4.jpg",
-    type:"Review"
+    type:"Tumor Therapy"
   },
 ];
 export const papers2022 = [
@@ -207,7 +217,7 @@ export const papers2022 = [
     link: "https://doi.org/10.1038/s41421-022-00390-6",
     journal: "Cell Discovery",
     image:"/images/publication/2022p1.jpg",
-    type:"Other"
+    type:" Cardiovascular Diseases"
   },
   {
     authors:
@@ -217,7 +227,7 @@ export const papers2022 = [
     link: "https://doi.org/10.1002/adma.202201736",
     journal: "Advanced Materials",
     image:"/images/publication/2022p2.jpg",
-    type:"Other"
+    type:"Tumor Therapy"
   },
   {
     authors:
@@ -237,18 +247,18 @@ export const papers2022 = [
     link: "https://doi.org/10.3390/bios12090703",
     journal: "Biosensors",
     image:"/images/publication/2022p4.jpg",
-    type:"Review"
+    type:"Tumor Therapy"
   },
-  {
-    authors:
-      "Jiacong Gao, Xueyan Hu, Congjuan Xu, Mingming Guo, Shouyi Li, Fan Yang, Xiaolei Pan, Fangyu Zhou, Yongxin Jin, Fang Bai, Zhihui Cheng, Zhenzhou Wu, Shuiping Chen, Xinglu Huang, Weihui Wu",
-    title:
-      "Neutrophil Mediated Delivery of the Combination of Colistin and Azithromycin for the Treatment of Bacterial Infection.",
-    link: "https://doi.org/10.1016/j.isci.2022.105035",
-    journal: "iScience",
-    image:"/images/publication/2022p5.jpg",
-    type:"Other"
-  },
+  // {
+  //   authors:
+  //     "Jiacong Gao, Xueyan Hu, Congjuan Xu, Mingming Guo, Shouyi Li, Fan Yang, Xiaolei Pan, Fangyu Zhou, Yongxin Jin, Fang Bai, Zhihui Cheng, Zhenzhou Wu, Shuiping Chen, Xinglu Huang, Weihui Wu",
+  //   title:
+  //     "Neutrophil Mediated Delivery of the Combination of Colistin and Azithromycin for the Treatment of Bacterial Infection.",
+  //   link: "https://doi.org/10.1016/j.isci.2022.105035",
+  //   journal: "iScience",
+  //   image:"/images/publication/2022p5.jpg",
+  //   type:"Tumor Therapy"
+  // },
   {
     authors:
       "Bai Xue, Mengyue Ge, Kelong Fan, Xinglu Huang, Xiyun Yan, Wei Jiang, Bing Jiang, Zhenglin Yang",
@@ -257,7 +267,7 @@ export const papers2022 = [
     link: "https://doi.org/10.1016/j.jconrel.2022.08.026",
     journal: "Journal of Controlled Release",
     image:"/images/publication/2022p6.jpg",
-    type:"Other"
+    type:"Cardiovascular Diseases "
   },
   {
     authors:
@@ -277,7 +287,7 @@ export const papers2022 = [
     link: "https://doi.org/10.1039/d2nr01568d",
     journal: "Nanoscale",
     image:"/images/publication/2022p8.jpg",
-    type:"Other"
+    type:"Tumor Therapy"
   },
   {
     authors:
@@ -287,7 +297,7 @@ export const papers2022 = [
     link: "https://doi.org/10.1021/acs.bioconjchem.2c00066",
     journal: "Bioconjugate Chemistry",
     image:"/images/publication/2022p9.jpg",
-    type:"Other"
+    type:"Tumor Therapy"
   },
   {
     authors:
@@ -374,159 +384,159 @@ export const papers2020 = [
     type:"Tumor Therapy"
   },
 ];
-export const papers2019 = [
-  {
-    authors:
-      "Huang X, Zhuang J, Chung SW, Huang B, Halpert G, Negron K, Sun X, Yang J, Oh Y, Hwang PM, Hanes J, Suk JS.",
-    title:
-      "Hypoxia-Tropic Protein Nanocages for Modulation of Tumor- and Chemotherapy-Associated Hypoxia.",
-    link: "https://doi.org/10.1021/acsnano.8b05399",
-    journal: "ACS Nano. 2019, 13 (1), pp 236–247",
-    image:"/images/publication/2019p1.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Chisholm J, Zhuang J, Xiao Y, Parikh K, Zhang C, Chen X, Suk JS, Hanes J.",
-    title:
-      "Protein Nanocages that penetrate airway mucus and tumor tissue.",
-    link: "https://doi.org/10.1073/pnas.1705407114",
-    journal: "Proc Natl Acad Sci U S A. 2017 Aug 8;114(32):E6595-E6602.",
-    image:"/images/publication/2019p2.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Choi KY,* Silvestre OF,* Huang X,* Hida N, Liu G, Ho DN, Lee S, Lee SW, Hong JI, Chen X.",
-    title:
-      "A nanoparticle formula for delivering siRNA or miRNAs to tumor cells in cell culture and in vivo.",
-    link: "https://doi.org/10.1038/nprot.2014.128",
-    journal: "Nature Protoc. 2014, 9(8):1900-15. (*Equally contributed)",
-    image:"/images/publication/2019p3.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X,* Zhang F,* Wang Y, Sun X, Choi KY, Liu D, Cheon J, Niu G, Chen X.",
-    title:
-      "Design consideration of iron-based nanoclusters for non-invasive tracking mesenchymal stem cell homing.",
-    link: "https://doi.org/10.1021/nn4062726",
-    journal: "ACS Nano. 2014, 8(5):4403-14.",
-    image:"/images/publication/2019p4.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Sun X,* Huang X,* Guo J, Niu G, Zhu W, Kiesewetter DO, Sun S, Chen X.",
-    title:
-      "Self-illuminating 64Cu doped CdSe/ZnS QDs for in vivo tumor imaging.",
-    link: "https://doi.org/10.1021/ja410438n",
-    journal: "J Am Chem Soc. 2014, 136(5):1706-9. (*Equally contributed)",
-    image:"/images/publication/2019p5.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Zhang F, Sun X, Choi KY, Niu G, Zhang G, Guo J, Lee S, Chen X.",
-    title:
-      "The genotype-dependent influence of functionalized multiwalled carbon nanotubes on fetal development",
-    link: "https://doi.org/10.1016/j.biomaterials.2013.10.027",
-    journal: "Biomaterials. 2014, 35(2): 856-865.",
-    image:"/images/publication/2019p6.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Zhang F, Zhu L, Choi KY, Guo N, Guo J, Tackett K, Anilkumar P, Liu G, Quan Q, Choi HS, Niu G, Sun Y, Lee S, Chen X.",
-    title:
-      "Effect of injection routes on the biodistribution, clearance, and tumor uptake of carbon dots.",
-    link: "https://doi.org/10.1021/nn401911k",
-    journal: "ACS Nano. 2013, 7(7):5684-93.",
-    image:"/images/publication/2019p7.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "He J,* Huang X,* Li YC, Liu Y, Babu T, Aronova MA, Wang S, Lu Z, Chen X, Nie Z.",
-    title:
-      "Self-Assembly of Amphiphilic Plasmonic Micelle-Like Nanoparticles in Selective Solvents.",
-    link: "https://doi.org/10.1021/ja402015s",
-    journal: "J Am Chem Soc. 2013, 135(21):7974-7984. (*Equally contributed)",
-    image:"/images/publication/2019p8.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Zhang F, Wang H, Niu G, Choi KY, Swierczewska M, Zhang G, Gao H, Wang Z, Zhu L, Choi HS, Lee S, Chen X.",
-    title:
-      "Mesenchymal stem cell-based cell engineering with multifunctional mesoporous silica nanoparticles for tumor delivery.",
-    link: "https://doi.org/10.1016/j.biomaterials.2012.11.032",
-    journal: "Biomaterials. 2013, 34(7):1772-80.",
-    image:"/images/publication/2019p9.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Zhang F,* Huang X,* Zhu L, Guo N, Niu G, Swierczewska M, Lee S, Xu H, Wang AY, Mohamedali KA, Rosenblum MG, Lu G, Chen X.",
-    title:
-      "Noninvasive monitoring of orthotopic glioblastoma therapy response using RGD-conjugated iron oxide nanoparticles.",
-    link: "https://doi.org/10.1016/j.biomaterials.2012.04.032",
-    journal: "Biomaterials. 2012, 33(21):5414-22. (*Equally contributed)",
-    image:"/images/publication/2019p10.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Zhang F, Lee S, Swierczewska M, Kiesewetter D, Lang L, Zhang G, Zhu L, Gao H, Leapman R, Niu G, Chen X.",
-    title:
-      "Long-term Multimodal Imaging of Tumor Draining Sentinel Lymph Nodes using Mesoporous Silica-based Nanoprobes.",
-    link: "https://doi.org/10.1016/j.biomaterials.2012.02.060",
-    journal: "Biomaterials. 2012, 33(17):4370-8.",
-    image:"/images/publication/2019p11.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Swierczewska M, Choi K, Zhu L, Bhirde A, Park J, Kim K, Xie J, Niu G, Lee K, Lee S, Chen X.",
-    title:
-      "Multiplex Imaging of Intracellular Proteolytic Cascade Using a Broad Spectrum Nano-Quencher.",
-    link: "https://doi.org/10.1002/anie.201107795",
-    journal: "Angew Chem Int Ed Engl. 2012, 51(7):1625-30.",
-    image:"/images/publication/2019p12.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X,* Li L,* Liu T, Hao N, Liu H, Chen D, Tang F.",
-    title:
-      "The Shape Effect of Mesoporous Silica Nanoparticles on Biodistribution, Clearance and Biocompatibility in vivo.",
-    link: "https://doi.org/10.1021/nn200365a",
-    journal: "ACS Nano. 2011, 5(7):5390-9.",
-    image:"/images/publication/2019p13.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Zhuang J, Teng X, Li L, Chen D, Yan X, Tang F.",
-    title:
-      "Mesoporous Silica Nanoparticles Promote Human Malignant Melanoma growth by Decreasing Reactive Oxygen Species: a signal transduction mechanism.",
-    link: "https://doi.org/10.1016/j.biomaterials.2010.04.055",
-    journal: "Biomaterials. 2010, 31:6142-6153.",
-    image:"/images/publication/2019p14.jpg",
-    type:"Tumor Therapy"
-  },
-  {
-    authors:
-      "Huang X, Teng X, Chen D, Tang F, He J.",
-    title:
-      "The effect of the shape of mesoporous silica nanoparticles on cellular uptake and cell function.",
-    link: "https://doi.org/10.1016/j.biomaterials.2009.09.060",
-    journal: "Biomaterials. 2010, 31:438–448",
-    image:"/images/publication/2019p15.jpg",
-    type:"Tumor Therapy"
-  },
-
-];
+// export const papers2019 = [
+//   {
+//     authors:
+//       "Huang X, Zhuang J, Chung SW, Huang B, Halpert G, Negron K, Sun X, Yang J, Oh Y, Hwang PM, Hanes J, Suk JS.",
+//     title:
+//       "Hypoxia-Tropic Protein Nanocages for Modulation of Tumor- and Chemotherapy-Associated Hypoxia.",
+//     link: "https://doi.org/10.1021/acsnano.8b05399",
+//     journal: "ACS Nano. 2019, 13 (1), pp 236–247",
+//     image:"/images/publication/2019p1.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Chisholm J, Zhuang J, Xiao Y, Parikh K, Zhang C, Chen X, Suk JS, Hanes J.",
+//     title:
+//       "Protein Nanocages that penetrate airway mucus and tumor tissue.",
+//     link: "https://doi.org/10.1073/pnas.1705407114",
+//     journal: "Proc Natl Acad Sci U S A. 2017 Aug 8;114(32):E6595-E6602.",
+//     image:"/images/publication/2019p2.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Choi KY,* Silvestre OF,* Huang X,* Hida N, Liu G, Ho DN, Lee S, Lee SW, Hong JI, Chen X.",
+//     title:
+//       "A nanoparticle formula for delivering siRNA or miRNAs to tumor cells in cell culture and in vivo.",
+//     link: "https://doi.org/10.1038/nprot.2014.128",
+//     journal: "Nature Protoc. 2014, 9(8):1900-15. (*Equally contributed)",
+//     image:"/images/publication/2019p3.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X,* Zhang F,* Wang Y, Sun X, Choi KY, Liu D, Cheon J, Niu G, Chen X.",
+//     title:
+//       "Design consideration of iron-based nanoclusters for non-invasive tracking mesenchymal stem cell homing.",
+//     link: "https://doi.org/10.1021/nn4062726",
+//     journal: "ACS Nano. 2014, 8(5):4403-14.",
+//     image:"/images/publication/2019p4.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Sun X,* Huang X,* Guo J, Niu G, Zhu W, Kiesewetter DO, Sun S, Chen X.",
+//     title:
+//       "Self-illuminating 64Cu doped CdSe/ZnS QDs for in vivo tumor imaging.",
+//     link: "https://doi.org/10.1021/ja410438n",
+//     journal: "J Am Chem Soc. 2014, 136(5):1706-9. (*Equally contributed)",
+//     image:"/images/publication/2019p5.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Zhang F, Sun X, Choi KY, Niu G, Zhang G, Guo J, Lee S, Chen X.",
+//     title:
+//       "The genotype-dependent influence of functionalized multiwalled carbon nanotubes on fetal development",
+//     link: "https://doi.org/10.1016/j.biomaterials.2013.10.027",
+//     journal: "Biomaterials. 2014, 35(2): 856-865.",
+//     image:"/images/publication/2019p6.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Zhang F, Zhu L, Choi KY, Guo N, Guo J, Tackett K, Anilkumar P, Liu G, Quan Q, Choi HS, Niu G, Sun Y, Lee S, Chen X.",
+//     title:
+//       "Effect of injection routes on the biodistribution, clearance, and tumor uptake of carbon dots.",
+//     link: "https://doi.org/10.1021/nn401911k",
+//     journal: "ACS Nano. 2013, 7(7):5684-93.",
+//     image:"/images/publication/2019p7.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "He J,* Huang X,* Li YC, Liu Y, Babu T, Aronova MA, Wang S, Lu Z, Chen X, Nie Z.",
+//     title:
+//       "Self-Assembly of Amphiphilic Plasmonic Micelle-Like Nanoparticles in Selective Solvents.",
+//     link: "https://doi.org/10.1021/ja402015s",
+//     journal: "J Am Chem Soc. 2013, 135(21):7974-7984. (*Equally contributed)",
+//     image:"/images/publication/2019p8.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Zhang F, Wang H, Niu G, Choi KY, Swierczewska M, Zhang G, Gao H, Wang Z, Zhu L, Choi HS, Lee S, Chen X.",
+//     title:
+//       "Mesenchymal stem cell-based cell engineering with multifunctional mesoporous silica nanoparticles for tumor delivery.",
+//     link: "https://doi.org/10.1016/j.biomaterials.2012.11.032",
+//     journal: "Biomaterials. 2013, 34(7):1772-80.",
+//     image:"/images/publication/2019p9.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Zhang F,* Huang X,* Zhu L, Guo N, Niu G, Swierczewska M, Lee S, Xu H, Wang AY, Mohamedali KA, Rosenblum MG, Lu G, Chen X.",
+//     title:
+//       "Noninvasive monitoring of orthotopic glioblastoma therapy response using RGD-conjugated iron oxide nanoparticles.",
+//     link: "https://doi.org/10.1016/j.biomaterials.2012.04.032",
+//     journal: "Biomaterials. 2012, 33(21):5414-22. (*Equally contributed)",
+//     image:"/images/publication/2019p10.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Zhang F, Lee S, Swierczewska M, Kiesewetter D, Lang L, Zhang G, Zhu L, Gao H, Leapman R, Niu G, Chen X.",
+//     title:
+//       "Long-term Multimodal Imaging of Tumor Draining Sentinel Lymph Nodes using Mesoporous Silica-based Nanoprobes.",
+//     link: "https://doi.org/10.1016/j.biomaterials.2012.02.060",
+//     journal: "Biomaterials. 2012, 33(17):4370-8.",
+//     image:"/images/publication/2019p11.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Swierczewska M, Choi K, Zhu L, Bhirde A, Park J, Kim K, Xie J, Niu G, Lee K, Lee S, Chen X.",
+//     title:
+//       "Multiplex Imaging of Intracellular Proteolytic Cascade Using a Broad Spectrum Nano-Quencher.",
+//     link: "https://doi.org/10.1002/anie.201107795",
+//     journal: "Angew Chem Int Ed Engl. 2012, 51(7):1625-30.",
+//     image:"/images/publication/2019p12.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X,* Li L,* Liu T, Hao N, Liu H, Chen D, Tang F.",
+//     title:
+//       "The Shape Effect of Mesoporous Silica Nanoparticles on Biodistribution, Clearance and Biocompatibility in vivo.",
+//     link: "https://doi.org/10.1021/nn200365a",
+//     journal: "ACS Nano. 2011, 5(7):5390-9.",
+//     image:"/images/publication/2019p13.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Zhuang J, Teng X, Li L, Chen D, Yan X, Tang F.",
+//     title:
+//       "Mesoporous Silica Nanoparticles Promote Human Malignant Melanoma growth by Decreasing Reactive Oxygen Species: a signal transduction mechanism.",
+//     link: "https://doi.org/10.1016/j.biomaterials.2010.04.055",
+//     journal: "Biomaterials. 2010, 31:6142-6153.",
+//     image:"/images/publication/2019p14.jpg",
+//     type:"Tumor Therapy"
+//   },
+//   {
+//     authors:
+//       "Huang X, Teng X, Chen D, Tang F, He J.",
+//     title:
+//       "The effect of the shape of mesoporous silica nanoparticles on cellular uptake and cell function.",
+//     link: "https://doi.org/10.1016/j.biomaterials.2009.09.060",
+//     journal: "Biomaterials. 2010, 31:438–448",
+//     image:"/images/publication/2019p15.jpg",
+//     type:"Tumor Therapy"
+//   },
+//
+// ];
 
 
 export const papers = [

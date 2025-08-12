@@ -30,7 +30,7 @@ export default function Home() {
 
 
       {/*<Brands />*/}
-      <FunFact />
+      {/*<FunFact />*/}
       {/*<Integration />*/}
       {/*<CTA />*/}
       {/*<FAQ />*/}
