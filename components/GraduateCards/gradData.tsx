@@ -56,7 +56,19 @@ export const GradData=[
           "Ph.D. Candidate in Biochemistry and Molecular Biology, Nankai University, 2024–Present"
         ]
     },
-    { src: "/images/people/gs/wxy.jpg", name: "Xiangyang Wang", cname: "王向阳", isPhD: true, grade: 2025 },
+    {
+        src: "/images/people/gs/wxy.jpg",
+        name: "Xiangyang Wang",
+        cname: "王向阳",
+        isPhD: true,
+        grade: 2025,
+        research: "Nano-based Tumor Therapy and Bioimaging",
+        experiences: [
+          "B.S., 2020-2024, Nankai University, Tianjin, China",
+          "Ph.D., 2024-present, Nankai University, Tianjin, China"
+        ]
+
+    },
     {
         src: "/images/people/gs/lmh.jpg",
         name: "Minghao Liu",
