@@ -24,6 +24,6 @@ export const Alumni = [
 
   { src: "/images/people/al/hxy.jpg", name: "Xueyan Hu", cname: "胡雪岩",year: 2021, degree: "Ph.D.", destination: "University of Bristol" },
   { src: "/images/people/al/szy.jpg", name: "Zhiyuan Sun", cname: "孙志远",year: 2021, degree: "Ph.D.", destination: "Asym-Chem" },
-  { src: "/images/people/al/lhj.jpg", name: "Hongjiang Liu", cname: "刘洪江", year: 2021, degree: "Ph.D.", destination: "Cornell University" },
+  { src: "/images/people/al/lhj.jpg", name: "Hongjiang Liu", cname: "刘洪江", year: 2021, degree: "M.S.", destination: "Cornell University" },
 
 ];
