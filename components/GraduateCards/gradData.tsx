@@ -42,7 +42,17 @@ export const GradData=[
         ]
     },
     { src: "/images/people/gs/wcy.jpg", name: "Chunyu Wang", cname: "王春玉", isPhD: true, grade: 2025 },
-    { src: "/images/people/gs/dcy.jpg", name: "Chengyang Du", cname: "杜程阳", isPhD: true, grade: 2025 },
+    {
+        src: "/images/people/gs/dcy.jpg",
+        name: "Chengyang Du",
+        cname: "杜程阳",
+        isPhD: true,
+        grade: 2025,
+        research: "Artificial Intelligence & Nano-biological Effects",
+        experiences: [
+            "Ph.D., 2023-current, Nankai University, Tianjin, China"
+        ]
+    },
     {
         src: "/images/people/gs/wyj.jpg",
         name: "Yajie Wang",
