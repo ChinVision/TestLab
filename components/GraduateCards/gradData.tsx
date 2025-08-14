@@ -134,7 +134,7 @@ export const GradData=[
         cname: "李诗白",
         isPhD: false,
         grade: 2025,
-        research: "Nanomedicine for Tumor Immunology",
+        research: "Nanomedicine for tumor immunology",
         experiences:[
           "B.S., 2019-2023, Dalian University of Technology",
           "M.S., 2023-current, Nankai University, Tianjin, China"
@@ -148,7 +148,7 @@ export const GradData=[
         cname: "宫羽清",
         isPhD: false,
         grade: 2025,
-        research: "Nanomedicine for Cardiovascular Diseases",
+        research: "Nanomedicine for cardiovascular diseases",
         experiences:[
           "M.S., 2024-current, Nankai University, Tianjin, China"
         ]
@@ -160,7 +160,7 @@ export const GradData=[
         cname: "吴洋怡",
         isPhD: false,
         grade: 2025,
-        research: "Design and Application of Nanomedicine in Cardiovascular Diseases",
+        research: "Nanomedicine for cardiovascular diseases",
         experiences:[
           "B.S., 2021-2025, East China University Of Science and Technology, Shanghai, China",
           "M.S., 2025-current, Nankai University, Tianjin, China"
@@ -173,7 +173,7 @@ export const GradData=[
         cname: "韩平",
         isPhD: false,
         grade: 2025,
-        research:"Targeted Delivery of Nanomedicines for Specific Treatment of Tumors",
+        research:"Nanomedicines for Specific Treatment of Tumors",
         experiences:[
             "M.S., 2025-current, Nankai University, Tianjin, China"
         ]
