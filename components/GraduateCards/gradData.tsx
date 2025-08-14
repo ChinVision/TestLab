@@ -10,7 +10,7 @@ export const GradData=[
         cname:"缪颖琪",
         isPhD: true,
         grade: 2025,
-        research: "Design and Application of Nanomedicine in Cardiovascular Diseases",
+        research: "Nanomedicine in cardiovascular diseases",
         experiences: [
             "B.S., 2015-2019, Tianjin University of Science and Technology, Tianjin, China",
             "M.S., 2019-2022, Peking University, Beijing, China",
@@ -26,7 +26,7 @@ export const GradData=[
         research: "Nanomedicine for brain diseases",
         experiences: [
             "B.S., 2016-2020, Central China Normal University, Wuhan, China",
-            "M.S.＆Ph.D., 2022-current, Nankai University, Tianjin, China"
+            "M.S.＆Ph.D., 2020-current, Nankai University, Tianjin, China"
         ]
     },
     {
@@ -41,7 +41,19 @@ export const GradData=[
           "Ph.D., 2021-current, Nankai University, Tianjin, China"
         ]
     },
-    { src: "/images/people/gs/wcy.jpg", name: "Chunyu Wang", cname: "王春玉", isPhD: true, grade: 2025 },
+    {
+        src: "/images/people/gs/wcy.jpg",
+        name: "Chunyu Wang",
+        cname: "王春玉",
+        isPhD: true,
+        grade: 2025,
+        research: "Nanomedicine for brain diseases",
+        experiences: [
+            "B.S., 2017-2021, Southwest University, Chongqing, China",
+            "M.S.&Ph.D, 2021-current，Nankai University，Tianjin，China"
+        ]
+
+    },
     {
         src: "/images/people/gs/dcy.jpg",
         name: "Chengyang Du",
@@ -97,7 +109,7 @@ export const GradData=[
         cname: "宣苏洋",
         isPhD: true,
         grade: 2025,
-        research: "Tumor Bioinformatics",
+        research: "Bioinformatics for Nanomedicine",
         experiences: [
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
         ]
@@ -108,7 +120,7 @@ export const GradData=[
         cname: "陈韦壬",
         isPhD: true,
         grade: 2025,
-        research:"Artificial Intelligence-Based Protein and Small Molecule Drug Design",
+        research:"AI for Nanomedicine",
         experiences:[
             "M.S., 2020-2023, Nankai University, Tianjin, China",
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
@@ -122,7 +134,7 @@ export const GradData=[
         cname: "李诗白",
         isPhD: false,
         grade: 2025,
-        research: "Nanomedicine in tumor immunology",
+        research: "Nanomedicine for Tumor Immunology",
         experiences:[
           "B.S., 2019-2023, Dalian University of Technology",
           "M.S., 2023-current, Nankai University, Tianjin, China"
@@ -136,7 +148,7 @@ export const GradData=[
         cname: "宫羽清",
         isPhD: false,
         grade: 2025,
-        research: "Design and Application of Nanomedicine in Cardiovascular Diseases",
+        research: "Nanomedicine for Cardiovascular Diseases",
         experiences:[
           "M.S., 2024-current, Nankai University, Tianjin, China"
         ]
@@ -172,7 +184,7 @@ export const GradData=[
         cname: "龙捷",
         isPhD: false,
         grade: 2025,
-        research:"Tumor Bioinformatics",
+        research:"Nanomedicine for brain diseases",
         experiences:[
             "B.S., 2021-2025, Beijing Forestry University, Beijing, China",
             "M.S., 2025-current, Nankai University, Tianjin, China"

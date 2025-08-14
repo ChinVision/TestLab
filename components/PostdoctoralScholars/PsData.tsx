@@ -24,9 +24,11 @@ export const PsData=[
     src: "/images/people/ps/zxy.jpg",
     name: "Xiangyun Zhang",
     cname:"张祥云",
-    research: "",
+    research: "Nanomedicine for cardiovascular diseases",
     experiences: [
-
+      "B.S., 2013-2017,Tianjin University of Science and Technology, Tianjin, China",
+      "M.S.&Ph.D., 2017-2022, Nankai University, Tianjin, China",
+      "Postdoc., 2022-Current, Nankai University, Tianjin, China"
     ] },
   {
     src: "/images/people/ps/zms.jpg",

@@ -9,7 +9,7 @@ export const Alumni = [
   { src: "/images/people/al/khl.jpg", name: "Helong Kang", cname: "康贺龙",year: 2025, degree: "Ph.D.", destination: "Qi Lu-Pharma" },
   { src: "/images/people/al/zhq.jpg", name: "Haoqi Zhang", cname: "张浩琪", year: 2025, degree: "Ph.D.", destination: "Qi Lu-Pharma" },
   { src: "/images/people/al/hl.jpg", name: "Lin Hou", cname: "侯琳",year: 2025, degree: "M.S.", destination: "YuanSong-Bio" },
-  { src: "/images/people/al/czb.jpg", name: "Zhenbang Chen", cname: "陈正邦",year: 2025, degree: "M.S.", destination: "QuanAn YY" },
+  { src: "/images/people/al/czb.jpg", name: "Zhengbang Chen", cname: "陈正邦",year: 2025, degree: "M.S.", destination: "QuanAn YY" },
   { src: "/images/people/al/dqn.jpg", name: "Qiannan Duan", cname: "段倩楠",year: 2025, degree: "M.S.", destination: "High School" },
 
   { src: "/images/people/al/lyh.jpg", name: "Yuanheng Li", cname: "李元亨", year: 2024, degree: "M.S.", destination: "Sino-Pharm" },
