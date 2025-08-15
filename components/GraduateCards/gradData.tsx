@@ -149,7 +149,18 @@ export const GradData=[
         ]
 
     },
-    { src: "/images/people/gs/zz.jpg", name: "Zheng Zhou", cname: "周正", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/zz.jpg",
+        name: "Zheng Zhou",
+        cname: "周正",
+        isPhD: false,
+        grade: 2025,
+        research: "Nanomedicine for brain diseases",
+        experiences: [
+          "B.S., 2019-2023, Jilin University, Changchun, China",
+          "M.S., 2023-current, Nankai University, Tianjin, China"
+        ]
+    },
     {
         src: "/images/people/gs/lsb.jpg",
         name: "Shibai Li",

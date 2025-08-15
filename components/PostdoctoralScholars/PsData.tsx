@@ -19,9 +19,11 @@ export const PsData=[
     src: "/images/people/ps/lyk.jpg",
     name: "Yuanke Li",
     cname:"李园珂",
-    research: "",
+    email: "liyuanketj@126.com",
+    research: "Nanomedicine for cancer immunotherapy",
     experiences: [
-
+      "B.S.&&M.S. in Pharmaceutics, China Pharmaceutical University (Sep 2008 – Jun 2012)",
+      "Ph.D. in Pharmaceutical Sciences, University of Missouri, USA (Jan 2015 – Jun 2020)"
     ] },
   {
     src: "/images/people/ps/zxy.jpg",
