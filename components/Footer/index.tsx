@@ -27,7 +27,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} NanKai University. Huang-Lab
+                &copy; {new Date().getFullYear()} NanKai University. Huang Lab
               </p>
             </motion.div>
           </div>

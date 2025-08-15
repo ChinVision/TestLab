@@ -30,28 +30,6 @@ const BlogData: Blog[] = [
       "2025级毕业留念",
   },
   {
-    _id: 34,
-    mainImage: "/images/photos/photo-241001.jpg",
-    title: "Team-building activities",
-    metadata:
-      "2024长城团建活动",
-  },
-  {
-    _id: 33,
-    mainImage: "/images/photos/photo-241002.jpg",
-    title: "Team-building activities",
-    metadata:
-      "2024长城团建活动",
-  },
-  {
-    _id: 32,
-    mainImage: "/images/photos/photo-241003.jpg",
-    title: "Team-building activities",
-    metadata:
-      "2024长城团建活动",
-  },
-
-  {
     _id: 31,
     mainImage: "/images/photos/photo-grads-24-1.jpg",
     title: "Graduate Celebration",
@@ -64,6 +42,41 @@ const BlogData: Blog[] = [
     title: "Graduate Celebration",
     metadata:
       "2024级毕业留念",
+  },
+  {
+    _id: 34,
+    mainImage: "/images/photos/photo-231001.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
+  },
+  {
+    _id: 34,
+    mainImage: "/images/photos/photo-231002.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
+  },
+  {
+    _id: 34,
+    mainImage: "/images/photos/photo-231003.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
+  },
+  {
+    _id: 33,
+    mainImage: "/images/photos/photo-231004.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
+  },
+  {
+    _id: 32,
+    mainImage: "/images/photos/photo-231005.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
   },
   {
     _id: 29,

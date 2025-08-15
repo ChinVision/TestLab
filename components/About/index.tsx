@@ -78,36 +78,40 @@ const About = () => {
               {/*    NanKai*/}
               {/*  </span>*/}
               {/*</h2>*/}
-              <p>
-                Dr. Huang has been a member of the
-                <a href="https://sklmcb.nankai.edu.cn/" target="_blank" rel="noreferrer"
-                   className={"text-black underline"}>
-                  State Key Laboratory of Medicinal Chemical Biology (SKLMCB)
-                </a>
-                and the
-                <a href="https://sky.nankai.edu.cn/" target="_blank" className={"text-black underline"}>College of Life
-                  Science at
-                  Nankai University </a>
-                since 2018.
+              <p className={'text-black text-xl'}>
+                Professor of the College of Life Science and the State Key Laboratory of Medicinal Chemical Biology at Nankai University since 2018.
+                {/*Dr. Huang has been a member of the*/}
+                {/*<a href="https://sklmcb.nankai.edu.cn/" target="_blank" rel="noreferrer"*/}
+                {/*   className={"text-black underline"}>*/}
+                {/*  State Key Laboratory of Medicinal Chemical Biology (SKLMCB)*/}
+                {/*</a>*/}
+                {/*and the*/}
+                {/*<a href="https://sky.nankai.edu.cn/" target="_blank" className={"text-black underline"}>College of Life*/}
+                {/*  Science at*/}
+                {/*  Nankai University </a>*/}
+                {/*since 2018.*/}
               </p>
               <br />
-              <p>
-                He obtained his Ph.D. degree from {" "}
-                <strong className="text-black">
-                  Techinal Institute of Physics and Chemistry, CAS.
-                </strong>
+              <p className={'text-black text-md'}>
+                Dr. Huang received his Ph.D degree in 2010 from Technical Institute of Physics and Chemistry, Chinese Academy of Science.
+                He subsequently pursued postdoctoral research at the National Institute of Health (2010-2014) and Johns Hopkins University (2010-2017).
+
+                {/*He obtained his Ph.D. degree from {" "}*/}
+                {/*<strong className="text-black">*/}
+                {/*  Techinal Institute of Physics and Chemistry, CAS.*/}
+                {/*</strong>*/}
               </p>
               <br />
-              <p>
-                He worked as a postdoctoral scholar at {" "}
-                <strong className="text-black">
-                  National Institutes of Health
-                </strong>
-                {" "} and {" "}
-                <strong className="text-black">
-                  Johns Hopkins University.
-                </strong>
-              </p>
+              {/*<p>*/}
+              {/*  He worked as a postdoctoral scholar at {" "}*/}
+              {/*  <strong className="text-black">*/}
+              {/*    National Institutes of Health*/}
+              {/*  </strong>*/}
+              {/*  {" "} and {" "}*/}
+              {/*  <strong className="text-black">*/}
+              {/*    Johns Hopkins University.*/}
+              {/*  </strong>*/}
+              {/*</p>*/}
               <div className="mt-7.5 flex items-center gap-5">
                 <div
                   className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">

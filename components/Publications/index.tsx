@@ -209,16 +209,16 @@ export default function Integration() {
 
           <div className="mt-3 flex items-center gap-2 flex-wrap">
             <span className="text-xs px-2 py-1 rounded-md bg-gray-100 border text-gray-600">
-              {paper.year}
+              {paper.location}
             </span>
-            {paper.types?.map((t) => (
-              <span
-                key={t}
-                className="text-xs px-2 py-1 rounded-md bg-white border text-gray-600"
-              >
-                {t}
-              </span>
-            ))}
+            {/*{paper.types?.map((t) => (*/}
+            {/*  <span*/}
+            {/*    key={t}*/}
+            {/*    className="text-xs px-2 py-1 rounded-md bg-white border text-gray-600"*/}
+            {/*  >*/}
+            {/*    {t}*/}
+            {/*  </span>*/}
+            {/*))}*/}
           </div>
         </div>
       </div>

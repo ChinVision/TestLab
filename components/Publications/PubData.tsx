@@ -13,7 +13,8 @@ export const papers2025 = [
       "Modular Design of T Cell Nanoengagers for Tumor Immunotherapy via Genetically Engineered Lipid‐Tagged Antibody Fragments",
     link: "https://doi.org/10.1002/adma.202503060",
     journal: "Advanced Materials",
-    image:"/images/publication/2025p1.jpg",
+    location:"2025 Jul;37(27):e2503060",
+    image:"/images/publication/2025/2025p1.png",
     type:"Tumor Therapy"
   },
   {
@@ -21,7 +22,8 @@ export const papers2025 = [
     title: "Synthetic Biology‐Based Strategy for Nanomedicine Design",
     link: "https://doi.org/10.1002/smtd.202401969",
     journal: "Small Methods",
-    image:"/images/publication/2025p2.jpg",
+    location: "2025 Jul;9(7):e2401969",
+    image:"/images/publication/2025/2025p2.png",
     type:" Tumor Therapy"
   },
   {
@@ -29,7 +31,8 @@ export const papers2025 = [
     title: "Fine‐tuning electron transfer for nanozyme design",
     link: "https://doi.org/10.1002/adhm.202401836",
     journal: "Advanced Healthcare Materials",
-    image:"/images/publication/2025p3.jpg",
+    location: "2025 Mar;14(8):e2401836",
+    image:"/images/publication/2025/2025p3.jpg",
     type:"Tumor Therapy"
   },
   {
@@ -39,7 +42,8 @@ export const papers2025 = [
       "Assembly of Genetically Engineered Ionizable Protein Nanocage-based Nanozymes for Intracellular Superoxide Scavenging",
     link: "https://doi.org/10.1038/s41467-025-56414-8",
     journal: "Nature Communications",
-    image:"/images/publication/2025p4.jpg",
+    location: "2025 Jan 28;16(1):1123",
+    image:"/images/publication/2025/2025p4.png",
     type:"Cardiovascular Diseases"
   },
   {
@@ -49,19 +53,21 @@ export const papers2025 = [
       "Rational Design of Dual-Targeted Nanomedicines for Enhanced Vascular Permeability in Low-Permeability Tumors",
     link: "https://doi.org/10.1021/acsnano.4c12808",
     journal: "ACS Nano",
-    image:"/images/publication/2025p5.jpg",
+    location: "2025 Jan 28;19(3):3424-3438",
+    image:"/images/publication/2025/2025p5.png",
     type:"Tumor Therapy"
   },
-  {
-    authors:
-      " ",
-    title:
-      "Unpublished",
-    link: "",
-    journal: "",
-    image:"",
-    type:"Brain Science"
-  },
+  // {
+  //   authors:
+  //     " ",
+  //   title:
+  //     "Unpublished",
+  //   link: "",
+  //   journal: "",
+  //   location: "",
+  //   image:"",
+  //   type:"Brain Science"
+  // },
 ];
 export const papers2024 = [
   {
@@ -71,7 +77,8 @@ export const papers2024 = [
       "Design of Artificial Extracellular Vesicles for Treatments of Cardiovascular Diseases",
     link: "https://link.springer.com/chapter/10.1007/978-981-97-5536-3_6",
     journal: "Extracellular Vesicle: Biology and Translational Application",
-    image:"/images/publication/2024p1.jpg",
+    location:"2024 Dec 12;pp 91–115",
+    image:"/images/publication/2024/2024p1.jpg",
     type:"Cardiovascular Diseases"
   },
   {
@@ -81,7 +88,8 @@ export const papers2024 = [
       "Rational Design of Genetically Engineered Mitochondrial-Targeting Nanozymes for Alleviating Myocardial Ischemic-Reperfusion Injury",
     link: "https://doi.org/10.1021/acs.nanolett.4c04462",
     journal: "Nano Letters",
-    image:"/images/publication/2024p2.jpg",
+    location: "2025 Jan 15;25(2):663-672",
+    image:"/images/publication/2024/2024p2.png",
     type:"Cardiovascular Diseases"
   },
   {
@@ -91,7 +99,8 @@ export const papers2024 = [
       "Data‐Driven Design of Triple‐Targeted Protein Nanoprobes for Multiplexed Imaging of Cancer Lymphatic Metastasis",
     link: "https://doi.org/10.1002/adma.202405877",
     journal: "Advanced Materials",
-    image:"/images/publication/2024p3.jpg",
+    location: "2024 Sep;36(38):e2405877",
+    image:"/images/publication/2024/2024p3.png",
     type:"Tumor Therapy"
   },
   {
@@ -101,7 +110,8 @@ export const papers2024 = [
       "Greatly isolated heterogeneous circulating tumor cells using hybrid engineered cell membrane-camouflaged magnetic nanoparticles",
     link: "https://doi.org/10.1186/s12951-024-02514-4",
     journal: "Journal of Nanobiotechnology",
-    image:"/images/publication/2024p4.jpg",
+    location: "2024 May 8;22(1):231",
+    image:"/images/publication/2024/2024p4.jpg",
     type:"Tumor Therapy"
   },
   {
@@ -111,7 +121,8 @@ export const papers2024 = [
       "Self-Assembly of Heterogeneous Ferritin Nanocages for Tumor Uptake and Penetration.",
     link: "https://doi.org/10.1002/advs.202309271",
     journal: "Advanced Science",
-    image:"/images/publication/2024p5.jpg",
+    location: "2024 May;11(17):e2309271",
+    image:"/images/publication/2024/2024p5.png",
     type:"Tumor Therapy"
   },
   {
@@ -121,7 +132,8 @@ export const papers2024 = [
       "Genetically engineered membrane-based nanoengagers for immunotherapy of pancreatic cancer",
     link: "https://doi.org/10.1186/s12951-024-02369-9",
     journal: "Journal of Nanobiotechnology",
-    image:"/images/publication/2024p6.png",
+    location: "2024 Mar 11;22(1):104",
+    image:"/images/publication/2024/2024p6.png",
     type:"Tumor Therapy"
   },
   {
@@ -131,7 +143,8 @@ export const papers2024 = [
       "Machine‐Learning‐Assisted Nanozyme Design: Lessons from Materials and Engineered Enzymes",
     link: "https://doi.org/10.1002/adma.202210848",
     journal: "Advanced Materials",
-    image:"/images/publication/2024p7.jpg",
+    location: "2024 Mar;36(10):e2210848",
+    image:"/images/publication/2024/2024p7.png",
     type:"Cardiovascular Diseases"
   },
   {
@@ -141,7 +154,8 @@ export const papers2024 = [
       "Genetically Engineered Cell Membrane‐Coated Magnetic Nanoparticles for High‐Performance Isolation of Circulating Tumor Cells",
     link: "https://doi.org/10.1002/adfm.202304426",
     journal: "Advanced Functional Materials",
-    image:"/images/publication/2024p8.jpg",
+    location: "2024 Feb 12;34(7):e2304426",
+    image:"/images/publication/2024/2024p8.jpg",
     type:"Cardiovascular Diseases"
   },
   {
@@ -151,7 +165,8 @@ export const papers2024 = [
       "Deep learning technology in vascular image segmentation and disease diagnosis",
     link: "https://doi.org/10.1002/jim4.15",
     journal: "Journal of Intelligent Medicine",
-    image:"/images/publication/2024p9.jpg",
+    location: "2024 Dec;1(1):6-41",
+    image:"/images/publication/2024/2024p9.jpg",
     type:"Cardiovascular Diseases"
   },
   {
@@ -161,7 +176,8 @@ export const papers2024 = [
       "Versatile Design of NO‐Generating Proteolipid Nanovesicles for Alleviating Vascular Injury",
     link: "https://doi.org/10.1002/advs.202401844",
     journal: "Advanced Science",
-    image:"/images/publication/2024p10.jpg",
+    location: "2025 Mar;12(10):e2501885",
+    image:"/images/publication/2024/2024p10.png",
     type:"Cardiovascular Diseases"
   },
 
@@ -174,7 +190,8 @@ export const papers2023 = [
       "Machine Learning-assisted Single Vessel Analysis of Nanoparticle Permeability in Tumour Vasculatures.",
     link: "https://doi.org/10.1038/s41565-023-01323-4",
     journal: "Nature Nanotechnology",
-    image:"/images/publication/2023p1.jpg",
+    location:"2023 Jun;18(6):657-666",
+    image:"/images/publication/2023/2023p1.png",
     type:"Tumor Therapy",
   },
   {
@@ -184,19 +201,21 @@ export const papers2023 = [
       "Tumor Cell Nanovaccines Based on Genetically Engineered Antibody‐Anchored Membrane.",
     link: "https://doi.org/10.1002/adma.202208923",
     journal: "Advanced Materials",
-    image:"/images/publication/2023p2.jpg",
+    location: "2023 Mar;35(13):e2208923",
+    image:"/images/publication/2023/2023p2.jpg",
     type:"Tumor Therapy"
   },
-  {
-    authors:
-      "Jie Zhuang, Adam C. Midgley, Yonghua Wei, Qiqi Liu, Deling Kong, Xinglu Huang",
-    title:
-      "Machine‐Learning‐Assisted Nanozyme Design: Lessons from Materials and Engineered Enzymes.",
-    link: "https://doi.org/10.1002/adma.202210848",
-    journal: "Advanced Materials",
-    image:"/images/publication/2023p3.jpg",
-    type:"Cardiovascular Diseases"
-  },
+  // {
+  //   authors:
+  //     "Jie Zhuang, Adam C. Midgley, Yonghua Wei, Qiqi Liu, Deling Kong, Xinglu Huang",
+  //   title:
+  //     "Machine‐Learning‐Assisted Nanozyme Design: Lessons from Materials and Engineered Enzymes.",
+  //   link: "https://doi.org/10.1002/adma.202210848",
+  //   journal: "Advanced Materials",
+  //   location: "2024 Mar;36(10):e2210848",
+  //   image:"/images/publication/2023p3.jpg",
+  //   type:"Cardiovascular Diseases"
+  // },
   {
     authors:
       "Chunyu Wang, Qiqi Liu, Xinglu Huang, Jie Zhuang",
@@ -204,10 +223,12 @@ export const papers2023 = [
       "Ferritin Nanocage: A Versatile Platform for Nanozyme Design.",
     link: "https://doi.org/10.1039/D3TB00192J",
     journal: "Journal of Materials Chemistry B",
-    image:"/images/publication/2023p4.jpg",
+    location: "2023 May 17;11(19):4153-4170",
+    image:"/images/publication/2023/2023p3.png",
     type:"Tumor Therapy"
   },
 ];
+
 export const papers2022 = [
   {
     authors:
@@ -216,7 +237,8 @@ export const papers2022 = [
       "Dynamic O-GlcNAcylation coordinates ferritinophagy and mitophagy to activate ferroptosis.",
     link: "https://doi.org/10.1038/s41421-022-00390-6",
     journal: "Cell Discovery",
-    image:"/images/publication/2022p1.jpg",
+    location: "2022 May 3;8(1):40",
+    image:"/images/publication/2022/2022p1.png",
     type:" Cardiovascular Diseases"
   },
   {
@@ -226,7 +248,8 @@ export const papers2022 = [
       "Prediction and Design of Nanozymes Using Explainable Machine Learning.",
     link: "https://doi.org/10.1002/adma.202201736",
     journal: "Advanced Materials",
-    image:"/images/publication/2022p2.jpg",
+    location: "2022 Jul;34(27):e2201736",
+    image:"/images/publication/2022/2022p2.png",
     type:"Tumor Therapy"
   },
   {
@@ -236,7 +259,8 @@ export const papers2022 = [
       "Genetically Engineered Protein Corona-based Cascade Nanozymes for Enhanced Tumor Therapy.",
     link: "https://doi.org/10.1002/adfm.202208513",
     journal: "Advanced Functional Materials",
-    image:"/images/publication/2022p3.jpg",
+    location: "2022 Dec;32(51):e2208513",
+    image:"/images/publication/2022/2022p3.jpg",
     type:"Tumor Therapy"
   },
   {
@@ -246,19 +270,10 @@ export const papers2022 = [
       "Lineage Tracing and Molecular Real-Time Imaging of Cancer Stem Cells.",
     link: "https://doi.org/10.3390/bios12090703",
     journal: "Biosensors",
-    image:"/images/publication/2022p4.jpg",
+    location: "2022 Sep 1;12(9):703",
+    image:"/images/publication/2022/2022p4.jpg",
     type:"Tumor Therapy"
   },
-  // {
-  //   authors:
-  //     "Jiacong Gao, Xueyan Hu, Congjuan Xu, Mingming Guo, Shouyi Li, Fan Yang, Xiaolei Pan, Fangyu Zhou, Yongxin Jin, Fang Bai, Zhihui Cheng, Zhenzhou Wu, Shuiping Chen, Xinglu Huang, Weihui Wu",
-  //   title:
-  //     "Neutrophil Mediated Delivery of the Combination of Colistin and Azithromycin for the Treatment of Bacterial Infection.",
-  //   link: "https://doi.org/10.1016/j.isci.2022.105035",
-  //   journal: "iScience",
-  //   image:"/images/publication/2022p5.jpg",
-  //   type:"Tumor Therapy"
-  // },
   {
     authors:
       "Bai Xue, Mengyue Ge, Kelong Fan, Xinglu Huang, Xiyun Yan, Wei Jiang, Bing Jiang, Zhenglin Yang",
@@ -266,7 +281,8 @@ export const papers2022 = [
       "Mitochondria-targeted nanozymes eliminate oxidative damage in retinal neovascularization disease.",
     link: "https://doi.org/10.1016/j.jconrel.2022.08.026",
     journal: "Journal of Controlled Release",
-    image:"/images/publication/2022p6.jpg",
+    location: "2022 Oct:350:271-283",
+    image:"/images/publication/2022/2022p5.png",
     type:"Cardiovascular Diseases "
   },
   {
@@ -276,7 +292,8 @@ export const papers2022 = [
       "Screening of Protein-Based Ultrasmall Nanozymes for Building Cell-Mimicking Catalytic Vesicles.",
     link: "https://doi.org/10.1002/smll.202202145",
     journal: "Small",
-    image:"/images/publication/2022p7.jpg",
+    location: "2022 Sep;18(39):e2202145",
+    image:"/images/publication/2022/2022p6.png",
     type:"Tumor Therapy"
   },
   {
@@ -286,7 +303,8 @@ export const papers2022 = [
       "Protein corona-coated immunomagnetic nanoparticles with enhanced isolation of circulating tumor cells.",
     link: "https://doi.org/10.1039/d2nr01568d",
     journal: "Nanoscale",
-    image:"/images/publication/2022p8.jpg",
+    location: "2022 Jun 16;14(23):8474-8483",
+    image:"/images/publication/2022/2022p7.jpg",
     type:"Tumor Therapy"
   },
   {
@@ -296,7 +314,8 @@ export const papers2022 = [
       "Combining Doxorubicin-Conjugated Polymeric Nanoparticles and 5-Aminolevulinic Acid for Enhancing Radiotherapy against Lung Cancer.",
     link: "https://doi.org/10.1021/acs.bioconjchem.2c00066",
     journal: "Bioconjugate Chemistry",
-    image:"/images/publication/2022p9.jpg",
+    location: "2022 Apr 20;33(4):654-665",
+    image:"/images/publication/2022/2022p8.jpg",
     type:"Tumor Therapy"
   },
   {
@@ -306,7 +325,8 @@ export const papers2022 = [
       "Bioorthogonal catalytic nanozyme-mediated lysosomal membrane leakage for targeted drug delivery.",
     link: "https://doi.org/10.7150/thno.66325",
     journal: "Theranostics",
-    image:"/images/publication/2022p10.jpg",
+    location: "2022 Jan 1;12(3):1132-1147",
+    image:"/images/publication/2022/2022p9.png",
     type:"Tumor Therapy"
   },
   {
@@ -316,10 +336,12 @@ export const papers2022 = [
       "Biomimetic Design of Artificial Hybrid Nanocells for Boosted Vascular Regeneration in Ischemic Tissues",
     link: "https://doi.org/10.1002/adma.202110352",
     journal: "Advanced Materials",
-    image:"/images/publication/2022p11.jpg",
+    location: "2022 Apr;34(14):e2110352",
+    image:"/images/publication/2022/2022p10.png",
     type:"Cardiovascular Diseases"
   },
 ];
+
 export const papers2021 = [
   {
     authors:
@@ -328,7 +350,8 @@ export const papers2021 = [
       "Modular Assembly of Tumor-Penetrating and Oligomeric Nanozyme Based on Intrinsically Self-Assembling Protein Nanocages",
     link: "https://doi.org/10.1002/adma.202103128",
     journal: "Advanced Materials",
-    image:"/images/publication/2021p1.jpg",
+    location: "2021 Oct;33(39):e2103128",
+    image:"/images/publication/2021/2021p1.png",
     type:"Tumor Therapy"
   },
   {
@@ -338,7 +361,8 @@ export const papers2021 = [
       "Nanozyme-Powered Giant Unilamellar Vesicles for Mimicry and Modulation of Intracellular Oxidative Stress",
     link: "https://doi.org/10.1021/acsami.1c05512",
     journal: "ACS Applied Materials & Interfaces",
-    image:"/images/publication/2021p2.jpg",
+    location: "2021 May 12;13(18):21087-21096",
+    image:"/images/publication/2021/2021p2.png",
     type:"Tumor Therapy"
   },
   {
@@ -348,7 +372,8 @@ export const papers2021 = [
       "Biomimetic Design of Mitochondria-Targeted Hybrid Nanozymes as Superoxide Scavengers",
     link: "https://doi.org/10.1002/adma.202006570",
     journal: "Advanced Materials",
-    image:"/images/publication/2021p3.jpg",
+    location: "2021 Mar;33(9):e2006570",
+    image:"/images/publication/2021/2021p3.png",
     type:"Cardiovascular Diseases"
   },
 ];
@@ -360,7 +385,8 @@ export const papers2020 = [
       "A Novel Model System for Understanding Anticancer Activity of Hypoxia-Activated Prodrugs",
     link: "https://doi.org/10.1021/acs.molpharmaceut.0c00232",
     journal: "Molecular Pharmaceutics",
-    image:"/images/publication/2020p1.jpg",
+    location: "2020 Jun 1;17(6):2072-2082",
+    image:"/images/publication/2020/2020p1.png",
     type:"Tumor Therapy"
   },
   {
@@ -370,7 +396,8 @@ export const papers2020 = [
       "Particle-based artificial three-dimensional stem cell spheroids for revascularization of ischemic diseases",
     link: "https://doi.org/10.1126/sciadv.aaz8011",
     journal: "Science Advances",
-    image:"/images/publication/2020p2.jpeg",
+    location: "2020 May 6;6(19):eaaz8011",
+    image:"/images/publication/2020/2020p2.png",
     type:"Cardiovascular Diseases"
   },
   {
@@ -380,10 +407,12 @@ export const papers2020 = [
       "Hypoxia-tropic nanozymes as oxygen generators for tumor-favoring theranostics",
     link: "https://doi.org/10.1016/j.biomaterials.2019.119635",
     journal: "Biomaterials",
-    image:"/images/publication/2020p3.jpg",
+    location: "2020 Feb:230:119635",
+    image:"/images/publication/2020/2020p3.png",
     type:"Tumor Therapy"
   },
 ];
+
 // export const papers2019 = [
 //   {
 //     authors:

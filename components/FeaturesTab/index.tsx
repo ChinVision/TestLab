@@ -5,9 +5,6 @@ import Image from "@/components/CustomImage";
 import featuresTabData from "./featuresTabData";
 import { FeatureTab } from "@/types/featureTab";
 
-// This component replaces the previous tab UI and shows all items as cards.
-// Each card: title on top, image in the middle, descriptions at the bottom.
-
 const FeaturesCards: React.FC = () => {
   return (
     <section className="relative pb-20 lg:pb-22.5">
@@ -22,18 +19,29 @@ const FeaturesCards: React.FC = () => {
               <h3 className="mb-4 text-center text-3xl font-bold text-black dark:text-white">
                 {feature.title}
               </h3>
-              <hr/>
-              {/* Image (middle) */}
-              <div className="relative mx-auto mb-5 w-full max-w-[550px] flex-1 md:mb-6">
-                <div className="relative mx-auto aspect-[562/366] w-full">
-                  <Image src={feature.image} alt={feature.title} fill className="dark:hidden object-contain" />
-                  <Image src={feature.imageDark} alt={feature.title} fill className="hidden dark:block object-contain" />
+              <hr />
+
+              {/* Image (middle) - 调整为更小的宽度且不被拉伸 */}
+              <div className="relative mx-auto mb-5 w-full max-w-[320px] md:max-w-[380px] flex-none md:mb-6">
+                <div className="relative w-full h-[120px] sm:h-[110px] md:h-[140px] lg:h-[160px]">
+                  <Image
+                    src={feature.image}
+                    alt={feature.title}
+                    fill
+                    className="dark:hidden object-contain"
+                  />
+                  <Image
+                    src={feature.imageDark}
+                    alt={feature.title}
+                    fill
+                    className="hidden dark:block object-contain"
+                  />
                 </div>
               </div>
 
               {/* Content (bottom) */}
               <div className="mt-3 text-center md:text-left">
-                <p className="mb-3 text-sm text-black dark:text-white">{feature.desc1}</p>
+                <p className="mb-3 text-base text-black dark:text-white">{feature.desc1}</p>
                 <p className="text-sm text-black dark:text-white">{feature.desc2}</p>
               </div>
             </article>

@@ -35,7 +35,7 @@ export const GradData=[
         cname: "田婧玮",
         isPhD: true,
         grade: 2025,
-        research: 'Machine Learning-assisted Analysis of the Relationship between Tumor Single-vessel Morphology and Nanomaterial Penetration',
+        research: 'AI for tumor',
         experiences: [
           "B.S., 2017-2021, Nankai University, Tianjin, China",
           "Ph.D., 2021-current, Nankai University, Tianjin, China"
@@ -126,7 +126,19 @@ export const GradData=[
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
         ]},
     { src: "/images/people/gs/gzy.jpg", name: "Zhengyu Guan", cname: "管振宇", isPhD: false, grade: 2025 },
-    { src: "/images/people/gs/zwy.jpg", name: "Weiyu Zhang", cname: "张未雨", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/zwy.jpg",
+        name: "Weiyu Zhang",
+        cname: "张未雨",
+        isPhD: false,
+        grade: 2025,
+        research: "nanomedicine for cardiovascular diseases",
+        experiences: [
+          "B.S., 2019-2023, Nankai University, Tianjin, China",
+          "M.S., 2023-current, Nankai University, Tianjin, China"
+        ]
+
+    },
     { src: "/images/people/gs/zz.jpg", name: "Zheng Zhou", cname: "周正", isPhD: false, grade: 2025 },
     {
         src: "/images/people/gs/lsb.jpg",
@@ -140,8 +152,30 @@ export const GradData=[
           "M.S., 2023-current, Nankai University, Tianjin, China"
         ]
     },
-    { src: "/images/people/gs/dy.jpg", name: "Yi Dou", cname: "豆艺", isPhD: false, grade: 2025 },
-    { src: "/images/people/gs/zzt.jpg", name: "ZiTing Zhu", cname: "朱子婷", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/dy.jpg",
+        name: "Yi Dou",
+        cname: "豆艺",
+        isPhD: false,
+        grade: 2025,
+        research: "Nanomedicine for brain diseases",
+        experiences: [
+          "B.S., 2020-2024, Southwest University, Chongqing, China",
+          "M.S., 2024-current，Nankai University，Tianjin，China"
+        ]
+    },
+    {
+        src: "/images/people/gs/zzt.jpg",
+        name: "ZiTing Zhu",
+        cname: "朱子婷",
+        isPhD: false,
+        grade: 2025,
+        research: "nanomedicine for brain diseases",
+        experiences: [
+            "B.S., 2021-2025, Nankai University, Tianjin, China",
+            "Ph.D., 2025-current, Nankai University, Tianjin, China"
+        ]
+    },
     {
         src: "/images/people/gs/gyq.jpg",
         name: "YuQing Gong",
@@ -153,7 +187,18 @@ export const GradData=[
           "M.S., 2024-current, Nankai University, Tianjin, China"
         ]
     },
-    { src: "/images/people/gs/jly.jpg", name: "LuYang Jiao", cname: "焦陆洋", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/jly.jpg",
+        name: "LuYang Jiao",
+        cname: "焦陆洋",
+        isPhD: false,
+        grade: 2025,
+        research: "nanomedicine for tumors",
+        experiences: [
+          "B.S., 2021-2025, Jilin University, Changchun, China",
+          "M.S., 2025-current, Nankai University, Tianjin, China"
+        ]
+    },
     {
         src: "/images/people/gs/wyy.jpg",
         name: "YangYi Wu",
@@ -173,7 +218,7 @@ export const GradData=[
         cname: "韩平",
         isPhD: false,
         grade: 2025,
-        research:"Nanomedicines for Specific Treatment of Tumors",
+        research:"Nanomedicine for cardiovascular diseases",
         experiences:[
             "M.S., 2025-current, Nankai University, Tianjin, China"
         ]

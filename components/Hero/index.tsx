@@ -19,15 +19,15 @@ const Hero = () => {
                 Welcome to Huang Lab.
               </h2>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                AI-Base-Tec for {"   "}
-                <span
-                  className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  life science
-                </span>
+                AI-Base-Tec for nanomedicine
+                {/*<span*/}
+                {/*  className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">*/}
+                {/*  life science*/}
+                {/*</span>*/}
               </h1>
               <br />
               <br />
-              <p className={'text-lg text-black'}>
+              <p className={'text-xl text-black'}>
                 Our research focuses on the rational design of nanomedicines to address critical challenges in oncology,
                 cardiovascular disorders, and neurological diseases.
                 Central to this effort is elucidating the mechanisms by which nanomedicines traverse complex biological barriers,
@@ -35,7 +35,8 @@ const Hero = () => {
                 To tackle these obstacles, we strategically integrate cutting-edge approaches into the design pipeline,
                 such as artificial intelligence (AI), bioinformatics, synthetic biology, immunology, and neuroscience,
                 enabling precision engineering of nanomedicines with enhanced therapeutic efficacy and translational potential.
-                Looking ahead, AI-driven nanotechnology constitutes a key strategic direction for the coming years.
+                In the coming years, AI-driven nanotechnology will constitute a core strategic pillar of our laboratory's research agenda.
+
 
                 {/*Representative works have been published in {" "}*/}
                 {/*<Link href={'/publications'} className={'text-black underline'}>*/}
