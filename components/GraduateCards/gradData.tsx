@@ -125,7 +125,17 @@ export const GradData=[
             "M.S., 2020-2023, Nankai University, Tianjin, China",
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
         ]},
-    { src: "/images/people/gs/gzy.jpg", name: "Zhengyu Guan", cname: "管振宇", isPhD: false, grade: 2025 },
+    {
+        src: "/images/people/gs/gzy.jpg",
+        name: "Zhengyu Guan",
+        cname: "管振宇",
+        isPhD: false,
+        grade: 2025,
+        research: "Nanomedicine for brain diseases",
+        experiences:[
+          "M.S., 2023-2026, Nankai University, Tianjin, China"
+        ]
+    },
     {
         src: "/images/people/gs/zwy.jpg",
         name: "Weiyu Zhang",

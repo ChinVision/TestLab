@@ -2,49 +2,49 @@ import { Blog } from "@/types/blog";
 
 const BlogData: Blog[] = [
   {
-    _id: 38,
+    _id: 41,
     mainImage: "/images/photos/photo-grads-25-1.jpg",
     title: "Graduate Celebration",
     metadata:
       "2025级毕业留念",
   },
   {
-    _id: 37,
+    _id: 40,
     mainImage: "/images/photos/photo-grads-25-2.jpg",
     title: "Graduate Celebration",
     metadata:
       "2025级毕业留念",
   },
   {
-    _id: 36,
+    _id: 39,
     mainImage: "/images/photos/photo-grads-25-3.jpg",
     title: "Graduate Celebration",
     metadata:
       "2025级毕业留念",
   },
   {
-    _id: 35,
+    _id: 38,
     mainImage: "/images/photos/photo-grads-25-4.jpg",
     title: "Graduate Celebration",
     metadata:
       "2025级毕业留念",
   },
   {
-    _id: 31,
+    _id: 37,
     mainImage: "/images/photos/photo-grads-24-1.jpg",
     title: "Graduate Celebration",
     metadata:
       "2024级毕业留念",
   },
   {
-    _id: 30,
+    _id: 36,
     mainImage: "/images/photos/photo-grads-24-2.jpg",
     title: "Graduate Celebration",
     metadata:
       "2024级毕业留念",
   },
   {
-    _id: 34,
+    _id: 35,
     mainImage: "/images/photos/photo-231001.jpg",
     title: "Team-building activities",
     metadata:
@@ -58,22 +58,29 @@ const BlogData: Blog[] = [
       "2023长城团建活动",
   },
   {
-    _id: 34,
+    _id: 33,
     mainImage: "/images/photos/photo-231003.jpg",
     title: "Team-building activities",
     metadata:
       "2023长城团建活动",
   },
   {
-    _id: 33,
+    _id: 32,
     mainImage: "/images/photos/photo-231004.jpg",
     title: "Team-building activities",
     metadata:
       "2023长城团建活动",
   },
   {
-    _id: 32,
+    _id: 31,
     mainImage: "/images/photos/photo-231005.jpg",
+    title: "Team-building activities",
+    metadata:
+      "2023长城团建活动",
+  },
+  {
+    _id: 30,
+    mainImage: "/images/photos/photo-231006.jpg",
     title: "Team-building activities",
     metadata:
       "2023长城团建活动",

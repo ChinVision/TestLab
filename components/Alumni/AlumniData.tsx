@@ -12,12 +12,15 @@ export const Alumni = [
   { src: "/images/people/al/czb.jpg", name: "Zhengbang Chen", cname: "陈正邦",year: 2025, degree: "M.S.", destination: "QuanAn YY" },
   { src: "/images/people/al/dqn.jpg", name: "Qiannan Duan", cname: "段倩楠",year: 2025, degree: "M.S.", destination: "High School" },
 
+  { src: "/images/people/ps/zms.jpg", name: "Mingsheng Zhu", cname: "朱明盛",year: 2024, degree: "Ph.D.", destination: "Academia" },
   { src: "/images/people/al/lyh.jpg", name: "Yuanheng Li", cname: "李元亨", year: 2024, degree: "M.S.", destination: "Sino-Pharm" },
   { src: "/images/people/al/zrp.jpg", name: "Rongping Zhao", cname: "赵容平", year: 2024, degree: "M.S.", destination: "Academia" },
 
   { src: "/images/people/al/lzj.jpg", name: "Zhijun Liu", cname: "刘志军", year: 2023, degree: "Ph.D.", destination: "Shenzhen University" },
   { src: "/images/people/al/ljp.jpg", name: "Jingping Lan", cname: "兰景萍",year: 2023, degree: "M.S.", destination: "High School" },
 
+  { src: "/images/people/ps/lqq.jpg", name: "Qiqi Liu", cname: "刘奇奇",year: 2022, degree: "Ph.D", destination: "Academia" },
+  { src: "/images/people/ps/zxy.jpg", name: "Xiangyun Zhang", cname: "张祥云",year: 2022, degree: "Ph.D.", destination: "Academia" },
   { src: "/images/people/al/gzx.jpg", name: "Zhanxia Gao", cname: "高展霞", year: 2022, degree: "M.S.", destination: "Shenzhen Bay Lab" },
   { src: "/images/people/al/wxy.jpg", name: "Xinyue Wang", cname: "王欣悦",year: 2022, degree: "M.S.", destination: "Public Official" },
   { src: "/images/people/al/wyh.jpg", name: "Yonghua Wei",  cname: "魏咏华",year: 2022, degree: "Ph.D.", destination: "Startup" },
