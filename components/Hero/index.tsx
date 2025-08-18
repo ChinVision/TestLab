@@ -1,13 +1,28 @@
 "use client";
-import Image from "@/components/CustomImage"
-import { useState } from "react";
-import Link from "next/link";
-const Hero = () => {
-  const [email, setEmail] = useState("");
+import Image from "@/components/CustomImage";
+import React, { useState, useEffect } from "react";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+const Hero = () => {
+  // 禁止 body 滚动（打开 modal 时）
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    if (isOpen) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [isOpen]);
+  // ESC 关闭
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key === "Escape") setIsOpen(false);
+    }
+    if (isOpen) window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [isOpen]);
 
   return (
     <>
@@ -19,11 +34,7 @@ const Hero = () => {
                 Welcome to Huang Lab.
               </h2>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                AI-Base-Tec for nanomedicine
-                {/*<span*/}
-                {/*  className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">*/}
-                {/*  life science*/}
-                {/*</span>*/}
+                AI-Base-Tec for Nanomedicine
               </h1>
               <br />
               <br />
@@ -36,15 +47,6 @@ const Hero = () => {
                 such as artificial intelligence (AI), bioinformatics, synthetic biology, immunology, and neuroscience,
                 enabling precision engineering of nanomedicines with enhanced therapeutic efficacy and translational potential.
                 In the coming years, AI-driven nanotechnology will constitute a core strategic pillar of our laboratory's research agenda.
-
-
-                {/*Representative works have been published in {" "}*/}
-                {/*<Link href={'/publications'} className={'text-black underline'}>*/}
-                {/*  Nature Nanotechnology (2023 Jun; 18(6):657–666),*/}
-                {/*  Advanced Materials (2022 Jul; 34(27):e2201736; 2024 Mar; 36(10):e2210848),*/}
-                {/*  and ACS Nano (2025 Jan 28; 19(3):3424–3438), alongside ongoing projects.*/}
-                {/*</Link>*/}
-
               </p>
             </div>
 
@@ -71,20 +73,20 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                {/*<div className="relative w-full h-64 md:h-96">*/}
-                {/*  <Image*/}
-                {/*    className="shadow-solid-l dark:hidden object-cover"*/}
-                {/*    src="/images/home/undraw_science_kut5.svg"*/}
-                {/*    alt="Hero"*/}
-                {/*    fill*/}
-                {/*  />*/}
-                {/*</div>*/}
-                <div className=" relative aspect-700/444 w-full">
+
+                {/* 缩略图容器 - 点击打开 modal */}
+                <div
+                  className="relative aspect-700/444 cursor-pointer"
+                  role="button"
+                  aria-label="Open hero image"
+                  onClick={() => setIsOpen(true)}
+                >
                   <Image
                     className="dark:hidden"
-                    src="/images/home/undraw_firmware_3fxd.svg"
+                    src="/images/home.jpg"
                     alt="Hero"
-                    fill
+                    width={700}
+                    height={444}
                   />
                   <Image
                     className="hidden shadow-solid-l dark:block"
@@ -98,6 +100,57 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      {/* Modal：全屏遮罩 + 放大/平移控件 */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+          onClick={() => setIsOpen(false)} // 点击遮罩关闭
+          aria-modal="true"
+          role="dialog"
+        >
+          <div
+            className="relative max-w-[92vw] max-h-[92vh] w-full"
+            onClick={(e) => e.stopPropagation()} // 阻止内部点击冒泡到遮罩
+          >
+            {/* 关闭按钮 */}
+            <button
+              onClick={() => setIsOpen(false)}
+              className="absolute top-3 right-3 z-30 rounded-full bg-white/90 dark:bg-gray-900/90 p-2 shadow-md"
+              aria-label="Close image viewer"
+            >
+              ✕
+            </button>
+
+            {/* Transform wrapper: 放大/缩小/重置按钮 + 图片主体 */}
+            <TransformWrapper
+              initialScale={1}
+              minScale={0.5}
+              limitToBounds={false}
+              wheel={{ step: 0.1 }}
+            >
+              {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+                <>
+                  <div className="flex items-center justify-center w-full h-full">
+                    <TransformComponent>
+                      <div className="max-w-full max-h-[80vh] flex items-center justify-center">
+                        {/* 使用较大尺寸渲染，保持 object-contain */}
+                        <Image
+                          src="/images/home.jpg"
+                          alt="Hero enlarged"
+                          width={1400}
+                          height={888}
+                          className="object-contain"
+                        />
+                      </div>
+                    </TransformComponent>
+                  </div>
+                </>
+              )}
+            </TransformWrapper>
+          </div>
+        </div>
+      )}
     </>
   );
 };
