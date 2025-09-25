@@ -256,4 +256,15 @@ export const GradData=[
             "M.S., 2025-current, Nankai University, Tianjin, China"
         ]
     },
+    {
+        src: "/images/people/gs/lxr.jpg",
+        name: "XinRui Li",
+        cname: "李欣芮",
+        isPhD: false,
+        grade: 2025,
+        research:"Nanomedicine for brain diseases",
+        experiences:[
+            "B.S., 2025-current, Nankai University, Tianjin, China"
+        ]
+    },
 ]
