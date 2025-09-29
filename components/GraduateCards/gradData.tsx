@@ -264,7 +264,18 @@ export const GradData=[
         grade: 2025,
         research:"Nanomedicine for brain diseases",
         experiences:[
-            "B.S., 2025-current, Nankai University, Tianjin, China"
+            "B.S., 2022-current, Nankai University, Tianjin, China"
+        ]
+    },
+    {
+        src: "/images/people/gs/sjw.jpg",
+        name: "JunWen Su",
+        cname: "苏俊文",
+        isPhD: false,
+        grade: 2025,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S., 2022-current, Nankai University, Tianjin, China"
         ]
     },
 ]
