@@ -13,7 +13,7 @@ export default function NewsPage() {
   return (
     <section className="py-20 lg:py-25 xl:py-30">
       <BreadHero imgSrc={'/images/hero/00.jpg'} links={'news'} title={'新闻动态'} />
-      <News />
+      {/*<News />*/}
     </section>
   );
 }

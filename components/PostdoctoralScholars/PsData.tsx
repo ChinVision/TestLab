@@ -16,27 +16,6 @@ export const PsData=[
     ]
   },
   {
-    src: "/images/people/ps/lyk.jpg",
-    name: "Yuanke Li",
-    cname:"李园珂",
-    email: "liyuanketj@126.com",
-    research: "Nanomedicine for cancer immunotherapy",
-    experiences: [
-      "B.S.&&M.S. in Pharmaceutics, China Pharmaceutical University (Sep 2008 – Jun 2012)",
-      "Ph.D. in Pharmaceutical Sciences, University of Missouri, USA (Jan 2015 – Jun 2020)"
-    ] },
-  {
-    src: "/images/people/ps/zxy.jpg",
-    name: "Xiangyun Zhang",
-    cname:"张祥云",
-    email: "18322580069@163.com ",
-    research: "Nanomedicine for cardiovascular diseases",
-    experiences: [
-      "B.S., 2013-2017,Tianjin University of Science and Technology, Tianjin, China",
-      "M.S.&Ph.D., 2017-2022, Nankai University, Tianjin, China",
-      "Postdoc., 2022-Current, Nankai University, Tianjin, China"
-    ] },
-  {
     src: "/images/people/ps/zms.jpg",
     name:"Mingsheng Zhu",
     cname: "朱明盛",
@@ -47,4 +26,16 @@ export const PsData=[
       "Ph.D.&Postdoc, 2020-current, Department of Tissue Engineering and Biomaterials, Nankai University, Tianjin, China",
       "Visiting research fellow, 2024-2025, Department of Diagnostic Radiology, NUS Yong Loo Lin School of Medicine, Singapore."
     ] },
+  {
+    src: "/images/people/ps/myq.jpg",
+    name: "Yingqi Miao",
+    cname:"缪颖琪",
+    email:"",
+    research: "Nanomedicine in cardiovascular diseases",
+    experiences: [
+      "B.S., 2015-2019, Tianjin University of Science and Technology, Tianjin, China",
+      "M.S., 2019-2022, Peking University, Beijing, China",
+      "Ph.D., 2022-current, Nankai University, Tianjin, China"
+    ]
+  },
 ]

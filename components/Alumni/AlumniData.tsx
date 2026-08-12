@@ -4,6 +4,16 @@
 */
 
 export const Alumni = [
+  { src: "/images/people/al/qty.jpg", name: "Tianyi Qi", cname: "齐天翊",year: 2026, degree: "Ph.D.", destination: "Startup" },
+  { src: "/images/people/ps/myq.jpg", name: "Yingqi Miao", cname: "缪颖琪",year: 2026, degree: "Ph.D.", destination: "Academia" },
+  { src: "/images/people/al/tjw.jpg", name: "Jingwei Tian", cname: "田婧玮",year: 2026, degree: "Ph.D.", destination: "Industry" },
+
+  { src: "/images/people/al/gzy.jpg", name: "Zhengyu Guan", cname: "管振宇",year: 2026, degree: "M.S.", destination: "Public Official" },
+  { src: "/images/people/al/zwy.jpg", name: "Weiyu Zhang", cname: "张未雨",year: 2026, degree: "M.S.", destination: "Academia" },
+  { src: "/images/people/al/zz.jpg", name: "Zheng Zhou", cname: "周正",year: 2026, degree: "M.S.", destination: "China Tobacco" },
+  { src: "/images/people/al/lsb.jpg", name: "Shibai Li", cname: "李诗白",year: 2026, degree: "M.S.", destination: "Industry" },
+
+
   { src: "/images/people/al/ayisha.jpg", name: "Ayisha", cname: "布阿依沙",year: 2025, degree: "Ph.D", destination: "Startup" },
   { src: "/images/people/al/wj.jpg", name: "Jin Wu", cname: "吴瑾",year: 2025, degree: "Ph.D.", destination: "Academia" },
   { src: "/images/people/al/khl.jpg", name: "Helong Kang", cname: "康贺龙",year: 2025, degree: "Ph.D.", destination: "Qi Lu-Pharma" },
@@ -20,7 +30,7 @@ export const Alumni = [
   { src: "/images/people/al/ljp.jpg", name: "Jingping Lan", cname: "兰景萍",year: 2023, degree: "M.S.", destination: "High School" },
 
   { src: "/images/people/ps/lqq.jpg", name: "Qiqi Liu", cname: "刘奇奇",year: 2022, degree: "Ph.D", destination: "Academia" },
-  { src: "/images/people/ps/zxy.jpg", name: "Xiangyun Zhang", cname: "张祥云",year: 2022, degree: "Ph.D.", destination: "Academia" },
+  { src: "/images/people/al/zxy.jpg", name: "Xiangyun Zhang", cname: "张祥云",year: 2022, degree: "Ph.D.", destination: "Academia" },
   { src: "/images/people/al/gzx.jpg", name: "Zhanxia Gao", cname: "高展霞", year: 2022, degree: "M.S.", destination: "Shenzhen Bay Lab" },
   { src: "/images/people/al/wxy.jpg", name: "Xinyue Wang", cname: "王欣悦",year: 2022, degree: "M.S.", destination: "Public Official" },
   { src: "/images/people/al/wyh.jpg", name: "Yonghua Wei",  cname: "魏咏华",year: 2022, degree: "Ph.D.", destination: "Startup" },

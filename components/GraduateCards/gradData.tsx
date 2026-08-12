@@ -5,43 +5,6 @@
 
 export const GradData=[
     {
-        src: "/images/people/gs/myq.jpg",
-        name: "Yingqi Miao",
-        cname:"缪颖琪",
-        isPhD: true,
-        grade: 2025,
-        research: "Nanomedicine in cardiovascular diseases",
-        experiences: [
-            "B.S., 2015-2019, Tianjin University of Science and Technology, Tianjin, China",
-            "M.S., 2019-2022, Peking University, Beijing, China",
-            "Ph.D., 2022-current, Nankai University, Tianjin, China"
-        ]
-    },
-    {
-        src: "/images/people/gs/qty.jpg",
-        name: "Tianyi Qi",
-        cname: "齐天翊",
-        isPhD: true,
-        grade: 2025,
-        research: "Nanomedicine for brain diseases",
-        experiences: [
-            "B.S., 2016-2020, Central China Normal University, Wuhan, China",
-            "M.S.＆Ph.D., 2020-current, Nankai University, Tianjin, China"
-        ]
-    },
-    {
-        src: "/images/people/gs/tjw.jpg",
-        name: "Jingwei Tian",
-        cname: "田婧玮",
-        isPhD: true,
-        grade: 2025,
-        research: 'AI for tumor',
-        experiences: [
-          "B.S., 2017-2021, Nankai University, Tianjin, China",
-          "Ph.D., 2021-current, Nankai University, Tianjin, China"
-        ]
-    },
-    {
         src: "/images/people/gs/wcy.jpg",
         name: "Chunyu Wang",
         cname: "王春玉",
@@ -52,7 +15,6 @@ export const GradData=[
             "B.S., 2017-2021, Southwest University, Chongqing, China",
             "M.S.&Ph.D, 2021-current，Nankai University，Tianjin，China"
         ]
-
     },
     {
         src: "/images/people/gs/dcy.jpg",
@@ -125,59 +87,12 @@ export const GradData=[
             "M.S., 2020-2023, Nankai University, Tianjin, China",
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
         ]},
-    {
-        src: "/images/people/gs/gzy.jpg",
-        name: "Zhengyu Guan",
-        cname: "管振宇",
-        isPhD: false,
-        grade: 2025,
-        research: "Nanomedicine for brain diseases",
-        experiences:[
-          "M.S., 2023-2026, Nankai University, Tianjin, China"
-        ]
-    },
-    {
-        src: "/images/people/gs/zwy.jpg",
-        name: "Weiyu Zhang",
-        cname: "张未雨",
-        isPhD: false,
-        grade: 2025,
-        research: "nanomedicine for cardiovascular diseases",
-        experiences: [
-          "B.S., 2019-2023, Nankai University, Tianjin, China",
-          "M.S., 2023-current, Nankai University, Tianjin, China"
-        ]
 
-    },
-    {
-        src: "/images/people/gs/zz.jpg",
-        name: "Zheng Zhou",
-        cname: "周正",
-        isPhD: false,
-        grade: 2025,
-        research: "Nanomedicine for brain diseases",
-        experiences: [
-          "B.S., 2019-2023, Jilin University, Changchun, China",
-          "M.S., 2023-current, Nankai University, Tianjin, China"
-        ]
-    },
-    {
-        src: "/images/people/gs/lsb.jpg",
-        name: "Shibai Li",
-        cname: "李诗白",
-        isPhD: false,
-        grade: 2025,
-        research: "Nanomedicine for tumor immunology",
-        experiences:[
-          "B.S., 2019-2023, Dalian University of Technology",
-          "M.S., 2023-current, Nankai University, Tianjin, China"
-        ]
-    },
     {
         src: "/images/people/gs/dy.jpg",
         name: "Yi Dou",
         cname: "豆艺",
-        isPhD: false,
+        isPhD: true,
         grade: 2025,
         research: "Nanomedicine for brain diseases",
         experiences: [
@@ -189,7 +104,7 @@ export const GradData=[
         src: "/images/people/gs/zzt.jpg",
         name: "ZiTing Zhu",
         cname: "朱子婷",
-        isPhD: false,
+        isPhD: true,
         grade: 2025,
         research: "nanomedicine for brain diseases",
         experiences: [
@@ -260,7 +175,7 @@ export const GradData=[
         src: "/images/people/gs/lxr.jpg",
         name: "XinRui Li",
         cname: "李欣芮",
-        isPhD: false,
+        isPhD: true,
         grade: 2025,
         research:"Nanomedicine for brain diseases",
         experiences:[
@@ -271,11 +186,62 @@ export const GradData=[
         src: "/images/people/gs/sjw.jpg",
         name: "JunWen Su",
         cname: "苏俊文",
-        isPhD: false,
+        isPhD: true,
         grade: 2025,
         research:"Nanomedicine in cardiovascular diseases",
         experiences:[
             "B.S., 2022-current, Nankai University, Tianjin, China"
         ]
     },
+    {
+        src: "/images/people/gs/wxr.jpg",
+        name: "Xiangrui Wang",
+        cname: "王相睿",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S.,2019-2023,Nankai University, Tianjin, China",
+            "M.S.,2023-2026,Nankai University, Tianjin, China",
+            "D.Eng.,2026-current,Nankai University, Tianjin, China"
+        ]
+    },
+    {
+        src: "/images/people/gs/zzc.jpg",
+        name: "Zicheng Zeng",
+        cname: "曾子柽",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S., 2021-2026, Beijing Forestry University, Beijing, China",
+            "B.S., 2024-2026, The University of British Columbia, Vancouver, Canada",
+            "M.S., 2026-current, Nankai University, Tianjin, China"
+        ]
+    },
+    {
+        src: "/images/people/gs/px.jpg",
+        name: "Xin Pan",
+        cname: "潘鑫",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S.，2018-2022 Beihang University，Beijing，China",
+            "M.S.，2023-2026 Capital Medical University，Beijing，China"
+        ]
+    },
+    {
+        src: "/images/people/gs/xml.jpg",
+        name: "Minglu Xu",
+        cname: "徐铭潞",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S., 2022-2026, Jilin University, Changchun, China",
+            "M.S., 2026-current, Nankai University, Tianjin, China"
+        ]
+    },
+
 ]
