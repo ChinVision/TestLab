@@ -97,7 +97,7 @@ export const GradData=[
         research: "Nanomedicine for brain diseases",
         experiences: [
           "B.S., 2020-2024, Southwest University, Chongqing, China",
-          "M.S., 2024-current，Nankai University，Tianjin，China"
+          "M.S.&Ph.D, 2024-current，Nankai University，Tianjin，China",
         ]
     },
     {
@@ -188,9 +188,10 @@ export const GradData=[
         cname: "苏俊文",
         isPhD: true,
         grade: 2025,
-        research:"Nanomedicine in cardiovascular diseases",
+        research:"Nano-based Tumor Therapy and Bioimaging",
         experiences:[
-            "B.S., 2022-current, Nankai University, Tianjin, China"
+            "B.S., 2022-2026, Nankai University, Tianjin, China",
+            "Ph.D., 2026-current, Nankai University, Tianjin, China"
         ]
     },
     {
@@ -203,7 +204,7 @@ export const GradData=[
         experiences:[
             "B.S.,2019-2023,Nankai University, Tianjin, China",
             "M.S.,2023-2026,Nankai University, Tianjin, China",
-            "D.Eng.,2026-current,Nankai University, Tianjin, China"
+            "Ph.D.,2026-current,Nankai University, Tianjin, China"
         ]
     },
     {
@@ -241,6 +242,32 @@ export const GradData=[
         experiences:[
             "B.S., 2022-2026, Jilin University, Changchun, China",
             "M.S., 2026-current, Nankai University, Tianjin, China"
+        ]
+    },
+    {
+        src: "/images/people/gs/yy.jpg",
+        name: "Yang You",
+        cname: "尤杨",
+        isPhD: true,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+          "B.S., 2021-2025, Shandong University, Weihai, China ",
+          "M.S., 2025-2026, The Chinese University of Hong Kong, Hong Kong ",
+          "Ph.D., 2026-current, Nankai University, Tianjin, China",
+        ]
+    },
+    {
+        src: "/images/people/gs/sc.jpg",
+        name: "Ce Su",
+        cname: "苏策",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine in cardiovascular diseases",
+        experiences:[
+            "B.S., 2022–2026, Hebei University of Technology, Tianjin, China",
+            "M.S., 2026-current, Nankai University, Tianjin, China",
+
         ]
     },
 

@@ -4,7 +4,54 @@
 */
 
 // Tumor Therapy   Cardiovascular Diseases  Brain Science
+export const papers2026 = [
+  {
+    authors:
+      "Tianyi Qi, Jingxuan Fu, Yajie Wang, Ming Zhao, Zhaoxu Zhang, Weicheng Peng, Qiqi Liu, Minghao Liu, Shibai Li, Qiannan Duan, Chunyu Wang, Jie Zhuang, Xiyun Yan, Yijin Liu, Hui Wang & Xinglu Huang",
+    title:
+      "Computationally guided design of bioactive nanostructures for targeted clearance of amyloid-β aggregates in Alzheimer’s disease",
+    link: "https://www.nature.com/articles/s41565-026-02225-x",
+    journal: "Nature Nanotechnology",
+    location: "2026 Jul 21",
+    image: "",
+    type: "Brain Science"
+  },
+  {
+    authors:
+      "Xueyan Hu, Qiqi Liu, Helong Kang, Ming Zhao, Zheng Zhou, Yuanke Li, Weicheng Peng, Tianyi Qi, Ruming Liu, Li Jiao, Jie Zhuang, Yijin Liu, Stephen Mann & Xinglu Huang",
+    title:
+      "Granzyme B-mimetic nanozyme for nanovesicle targeted anticancer applications",
+    link: "https://www.nature.com/articles/s41467-026-68773-x",
+    journal: "Nature Communications",
+    location: "2026 Jan 26;17(1):2031",
+    image: "",
+    type: "Tumor Therapy"
+  },
+  {
+    authors:
+      "Jingwei Tian, Mingsheng Zhu, Zhenyu Guan, Jianxin Liu, Yuanke Li, Qiqi Liu, Yingqi Miao, Jin Wu, Che Zhou, Xiangyang Wang, Jie Zhuang & Xinglu Huang",
+    title:
+      "Redefining Tumor Vascular Permeability through Deep Learning-Guided Microneedle Delivery",
+    link: "https://doi.org/10.1021/acsnano.5c16558",
+    journal: "ACS Nano",
+    location: "2026 Feb 24;20(7):5613-5628",
+    image: "",
+    type: "Tumor Therapy"
+  },
+  {
+    authors:
+      "Buayishamu Kutilike, Xueqi Lv, Yuqing Gong, Yi Dou, Xiangyun Zhang, Qiqi Liu, Junwen Su, Jin Wu, Helong Kang, Yingqi Miao, Baofa Sun, Xinglu Huang, Jie Zhuang",
+    title:
+      "Single-Cell Sequencing Analysis-Driven Nanomedicine Design for Mimicking Endogenous Immune Repair in Myocardial Infarction",
+    link: "https://doi.org/10.1021/acsnano.6c01251",
+    journal: "ACS Nano",
+    location: "2026 Apr 21;20(15):11933-11948",
+    image: "",
+    type: "Cardiovascular Diseases"
+  },
 
+
+];
 export const papers2025 = [
   {
     authors:

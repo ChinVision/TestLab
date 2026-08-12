@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import Image from "@/components/CustomImage";
 import SectionHeader from "../Common/SectionHeader";
 import {
+  papers2026,
   papers2025,
   papers2024,
   papers2023,
@@ -12,6 +13,7 @@ import {
   // papers2019,
 } from "./PubData";
 const allPapers = [
+  { year: "2026", papers: papers2026 },
   { year: "2025", papers: papers2025 },
   { year: "2024", papers: papers2024 },
   { year: "2023", papers: papers2023 },

@@ -2,6 +2,34 @@ import { Blog } from "@/types/blog";
 
 const BlogData: Blog[] = [
   {
+    _id: 49,
+    mainImage: "/images/photos/photo-2026-4.jpg",
+    title: "那一刻",
+    metadata:
+      "位置：图书馆前的草坪",
+  },
+  {
+    _id: 48,
+    mainImage: "/images/photos/photo-2026-3.jpg",
+    title: "分子所",
+    metadata:
+      "迎来了红+蓝",
+  },
+  {
+    _id: 47,
+    mainImage: "/images/photos/photo-2026-2.jpg",
+    title: "欢乐时光",
+    metadata:
+      "好好吃饭是对的",
+  },
+  {
+    _id: 46,
+    mainImage: "/images/photos/photo-2026-1.jpg",
+    title: "毕业快乐！",
+    metadata:
+      "爱国三问",
+  },
+  {
     _id: 45,
     mainImage: "/images/photos/photo-250601.jpg",
     title: "We are 316",
