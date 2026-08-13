@@ -292,5 +292,16 @@ export const GradData=[
             "B.S., 2022‑2026, Hefei University of Technology, Hefei, China",
         ]
     },
+    {
+        src: "/images/people/gs/zc.jpg",
+        name: "Che Zhou",
+        cname: "周澈",
+        isPhD: false,
+        grade: 2027,
+        research:"Nano-based Tumor Therapy and Bioimaging",
+        experiences:[
+            "B.S., 2023‑current, Nankai University, Tianjin, China",
+        ]
+    },
 
 ]
