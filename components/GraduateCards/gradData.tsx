@@ -282,7 +282,7 @@ export const GradData=[
         ]
     },
     {
-        src: "/images/people/gs/xts.jpg",
+        src: "/images/people/gs/dcm.jpg",
         name: "Chenman Du",
         cname: "杜辰曼",
         isPhD: false,
