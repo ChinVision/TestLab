@@ -45,7 +45,7 @@ export const GradData=[
         name: "Xiangyang Wang",
         cname: "王向阳",
         isPhD: true,
-        grade: 2025,
+        grade: 2024,
         research: "Nano-based Tumor Therapy and Bioimaging",
         experiences: [
           "B.S., 2020-2024, Nankai University, Tianjin, China",
@@ -58,11 +58,11 @@ export const GradData=[
         name: "Minghao Liu",
         cname: "刘铭昊",
         isPhD: true,
-        grade: 2025,
+        grade: 2024,
         research: 'Protein Design and Nanodelivery',
         experiences: [
             "B.S., 2020-2024, Nankai University, Tianjin, China",
-            "Ph.D., 2025-current, Nankai University, Tianjin, China"
+            "Ph.D., 2024-current, Nankai University, Tianjin, China"
         ]
     },
     {
@@ -179,7 +179,8 @@ export const GradData=[
         grade: 2025,
         research:"Nanomedicine for brain diseases",
         experiences:[
-            "B.S., 2022-current, Nankai University, Tianjin, China"
+            "B.S., 2022-2026, Nankai University, Tianjin, China",
+            "Ph.D., 2026-current, Nankai University, Tianjin, China"
         ]
     },
     {
@@ -267,7 +268,28 @@ export const GradData=[
         experiences:[
             "B.S., 2022–2026, Hebei University of Technology, Tianjin, China",
             "M.S., 2026-current, Nankai University, Tianjin, China",
-
+        ]
+    },
+    {
+        src: "/images/people/gs/xts.jpg",
+        name: "TianShang Xing",
+        cname: "邢天赏",
+        isPhD: false,
+        grade: 2026,
+        research:"Nanomedicine for brain diseases",
+        experiences:[
+            "M.S., 2026-current, Nankai University, Tianjin, China",
+        ]
+    },
+    {
+        src: "/images/people/gs/xts.jpg",
+        name: "Chenman Du",
+        cname: "杜辰曼",
+        isPhD: false,
+        grade: 2026,
+        research:"Interdisciplinary Group for Material Synthesis",
+        experiences:[
+            "B.S., 2022‑2026, Hefei University of Technology, Hefei, China",
         ]
     },
 
