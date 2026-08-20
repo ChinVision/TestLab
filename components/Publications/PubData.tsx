@@ -13,7 +13,7 @@ export const papers2026 = [
     link: "https://www.nature.com/articles/s41565-026-02225-x",
     journal: "Nature Nanotechnology",
     location: "2026 Jul 21",
-    image: "",
+    image: "/images/publication/2026/2026p1.png",
     type: "Brain Science"
   },
   {
@@ -24,7 +24,7 @@ export const papers2026 = [
     link: "https://www.nature.com/articles/s41467-026-68773-x",
     journal: "Nature Communications",
     location: "2026 Jan 26;17(1):2031",
-    image: "",
+    image: "/images/publication/2026/2026p2.png",
     type: "Tumor Therapy"
   },
   {
@@ -35,7 +35,7 @@ export const papers2026 = [
     link: "https://doi.org/10.1021/acsnano.5c16558",
     journal: "ACS Nano",
     location: "2026 Feb 24;20(7):5613-5628",
-    image: "",
+    image: "/images/publication/2026/2026p3.png",
     type: "Tumor Therapy"
   },
   {
@@ -46,7 +46,7 @@ export const papers2026 = [
     link: "https://doi.org/10.1021/acsnano.6c01251",
     journal: "ACS Nano",
     location: "2026 Apr 21;20(15):11933-11948",
-    image: "",
+    image: "/images/publication/2026/2026p4.png",
     type: "Cardiovascular Diseases"
   },
 

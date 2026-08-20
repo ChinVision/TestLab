@@ -3,7 +3,7 @@ import Image from "@/components/CustomImage";
 import { FiCalendar, FiAward, FiBriefcase } from "react-icons/fi";
 import { Alumni } from "./AlumniData";
 
-export default function AlumniCollections() {
+export default function TeachersCollections() {
   return (
     <>
       <div className="max-w-c-1315 mx-auto px-4 md:px-8 xl:px-0">

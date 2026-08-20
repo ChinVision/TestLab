@@ -5,17 +5,6 @@
 
 export const PsData=[
   {
-    src: "/images/people/ps/lqq.jpg",
-    name: "Qiqi Liu",
-    cname:"刘奇奇",
-    email: "450137842@qq.com",
-    research: "Nanomedicine for brain diseases",
-    experiences: [
-      "B.S.,2012-2016, Inner Mongolia Agricultural University, Hohhot, China",
-      "M.S.&Ph.D.&Postdoc, 2016-current, Nankai University, Tianjin,China"
-    ]
-  },
-  {
     src: "/images/people/ps/zms.jpg",
     name:"Mingsheng Zhu",
     cname: "朱明盛",
@@ -30,7 +19,7 @@ export const PsData=[
     src: "/images/people/ps/myq.jpg",
     name: "Yingqi Miao",
     cname:"缪颖琪",
-    email:"",
+    email:"Myq_1011@163.com",
     research: "Nanomedicine in cardiovascular diseases",
     experiences: [
       "B.S., 2015-2019, Tianjin University of Science and Technology, Tianjin, China",
@@ -38,4 +27,16 @@ export const PsData=[
       "Ph.D., 2022-current, Nankai University, Tianjin, China"
     ]
   },
+  {
+  src: "/images/people/ps/wwj.jpg",
+    name: "Wenjing Wu",
+    cname:"吴文静",
+    email:"15934028164@163.com",
+    research: "Drug Delivery and Bioimaging",
+    experiences: [
+    "B.S., 2014-2018, Shanxi University, Taiyuan, China",
+    "Ph.D., 2018-2023, Institute of Chemistry, Chinese Academy of Sciences, Beijing, China",
+    "Postdoc., 2026-current, Nankai University, Tianjin, China"
+  ]
+},
 ]
