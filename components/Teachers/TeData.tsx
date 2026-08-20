@@ -5,6 +5,17 @@
 
 export const TeData=[
   {
+    src: "/images/teacher/zj.jpg",
+    name: "Jie Zhuang",
+    cname:"庄洁",
+    email: "zhuangj@nankai.edu.cn",
+    research: "Nanozyme Engineering",
+    experiences: [
+      "Professor of the School of Medicine and the State Key Laboratory of Medicinal Chemical Biology at Nankai University since 2019.",
+      "Dr. Zhuang received his Ph.D. degree in 2010 from the Institute of Biophysics, Chinese Academy of Sciences. She subsequently pursued postdoctoral research (2011-2012) and research fellowship (2012-2019) at the National Heart, Lung, and Blood Institute (NHLBI), National Institutes of Health (NIH).",
+    ]
+  },
+  {
     src: "/images/teacher/lj.jpg",
     name: "Ji Liu",
     cname:"刘计",
