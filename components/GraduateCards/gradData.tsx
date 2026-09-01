@@ -22,7 +22,7 @@ export const GradData=[
         cname: "杜程阳",
         isPhD: true,
         grade: 2025,
-        research: "Artificial Intelligence & Nano-biological Effects",
+        research: "AI for Nano-biological Effects",
         experiences: [
             "Ph.D., 2023-current, Nankai University, Tianjin, China"
         ]
@@ -33,7 +33,7 @@ export const GradData=[
         cname: "王亚杰",
         isPhD: true,
         grade: 2025,
-        research: "Protein-Based Nanomaterial Design | Artificial Intelligence",
+        research: "AI for protein design",
         experiences: [
           "B.Eng. in Computer Science and Technology, Sichuan University, 2014–2018",
           "M.Sc. in Biology, Sichuan Normal University, 2021–2024",
@@ -59,7 +59,7 @@ export const GradData=[
         cname: "刘铭昊",
         isPhD: true,
         grade: 2024,
-        research: 'Protein Design and Nanodelivery',
+        research: 'Nanomedicine for brain diseases',
         experiences: [
             "B.S., 2020-2024, Nankai University, Tianjin, China",
             "Ph.D., 2024-current, Nankai University, Tianjin, China"
@@ -106,7 +106,7 @@ export const GradData=[
         cname: "朱子婷",
         isPhD: true,
         grade: 2025,
-        research: "nanomedicine for brain diseases",
+        research: "Nanomedicine for brain diseases",
         experiences: [
             "B.S., 2021-2025, Nankai University, Tianjin, China",
             "Ph.D., 2025-current, Nankai University, Tianjin, China"
@@ -189,7 +189,7 @@ export const GradData=[
         cname: "苏俊文",
         isPhD: true,
         grade: 2025,
-        research:"Nano-based Tumor Therapy and Bioimaging",
+        research:"AI for tumor",
         experiences:[
             "B.S., 2022-2026, Nankai University, Tianjin, China",
             "Ph.D., 2026-current, Nankai University, Tianjin, China"
@@ -201,7 +201,7 @@ export const GradData=[
         cname: "王相睿",
         isPhD: false,
         grade: 2026,
-        research:"Nano-based Tumor Therapy and Bioimaging",
+        research:"LNP-mRNA delivery",
         experiences:[
             "B.S.,2019-2023,Nankai University, Tianjin, China",
             "M.S.,2023-2026,Nankai University, Tianjin, China",
@@ -227,7 +227,7 @@ export const GradData=[
         cname: "潘鑫",
         isPhD: false,
         grade: 2026,
-        research:"Nano-based Tumor Therapy and Bioimaging",
+        research:"AI for tumor",
         experiences:[
             "B.S.，2018-2022 Beihang University，Beijing，China",
             "M.S.，2023-2026 Capital Medical University，Beijing，China"
@@ -264,7 +264,7 @@ export const GradData=[
         cname: "苏策",
         isPhD: false,
         grade: 2026,
-        research:"Nano-based Tumor Therapy and Bioimaging",
+        research:"LNP-mRNA delivery",
         experiences:[
             "B.S., 2022–2026, Hebei University of Technology, Tianjin, China",
             "M.S., 2026-current, Nankai University, Tianjin, China",
@@ -287,7 +287,7 @@ export const GradData=[
         cname: "杜辰曼",
         isPhD: false,
         grade: 2026,
-        research:"Nano-based Tumor Therapy and Bioimaging",
+        research:"LNP-mRNA delivery",
         experiences:[
             "B.S., 2022‑2026, Hefei University of Technology, Hefei, China",
         ]

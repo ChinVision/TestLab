@@ -1,7 +1,7 @@
 import Image from "@/components/CustomImage"
 import SectionHeader from "../Common/SectionHeader";
 import { TeData } from "./TeData";
-import { FiAward, FiCalendar, FiMail } from "react-icons/fi";
+import { FiAward, FiCalendar, FiMail, FiUser} from "react-icons/fi";
 
 
 const Teachers = () => {
@@ -11,7 +11,7 @@ const Teachers = () => {
         <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
-              title: `Teachers`,
+              title: `Faculty Members`,
               subtitle: ``,
               description: ``,
             }}
@@ -40,24 +40,21 @@ const Teachers = () => {
 
                 {/* 右侧文字信息 */}
                 <div className="flex flex-col p-4 flex-1 h-100 overflow-hidden">
+
+
+                  {/* 研究方向 */}
+                  <div className="mb-3">
+                    <div className="flex items-center gap-2 text-gray-700 font-semibold">
+                      <FiUser className="text-blue-500" />
+                      Professor
+                    </div>
+                  </div>
                   <h3 className="text-lg font-bold text-gray-800">
                     {grad.name}
                   </h3>
                   <h2 className="text-md font-bold text-gray-800 mb-4">
                     {grad.cname}
                   </h2>
-
-                  {/* 研究方向 */}
-                  <div className="mb-1">
-                    <div className="flex items-center gap-2 text-gray-700 font-semibold">
-                      <FiCalendar className="text-blue-500" />
-                      Research
-                    </div>
-                    <p className="text-sm text-gray-600 mt-1 whitespace-pre-line">
-                      {grad.research}
-                    </p>
-                  </div>
-
                   <div className="mb-1">
                     <div className="flex items-center gap-2 text-gray-700 font-semibold">
                       <FiMail className="text-blue-500" />

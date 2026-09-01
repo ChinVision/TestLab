@@ -9,7 +9,7 @@ export const PsData=[
     name:"Mingsheng Zhu",
     cname: "朱明盛",
     email:"mingszhu@nankai.edu.cn",
-    research: "Nano-biological Effects & Machine Learning",
+    research: "AI for tumor",
     experiences: [
       "BSc, 2014-2018, Department of Bioengineering, Huazhong Agricultural University, Wuhan, China.",
       "Ph.D.&Postdoc, 2020-current, Department of Tissue Engineering and Biomaterials, Nankai University, Tianjin, China",
@@ -32,7 +32,7 @@ export const PsData=[
     name: "Wenjing Wu",
     cname:"吴文静",
     email:"15934028164@163.com",
-    research: "Drug Delivery and Bioimaging",
+    research: "LNP-mRNA delivery",
     experiences: [
     "B.S., 2014-2018, Shanxi University, Taiyuan, China",
     "Ph.D., 2018-2023, Institute of Chemistry, Chinese Academy of Sciences, Beijing, China",
